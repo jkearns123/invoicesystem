@@ -68,5 +68,6 @@ Delete a Customer
 * **Jade Kearns** - *Initial work* - [jkearns123](https://github.com/jkearns123)
 
 ## UML:
-![ScreenShot](https://github.com/jkearns123/invoicesystem/invoicesystem_uml.png)
+[UML]: https://github.com/jkearns123/invoicesystem/blob/master/invoicesystem_uml.png
+![ScreenShot](https://github.com/jkearns123/invoicesystem/blob/master/invoicesystem_uml.png)
 
