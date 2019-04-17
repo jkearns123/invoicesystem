@@ -13,7 +13,7 @@ This Invoice service is designed for handling invoicing in order to eliminate pa
 ##Actors
 
 
-##User
+User:
 ```
 Create a User
 Retrieve a User
@@ -22,7 +22,7 @@ Delete a User
 
 ```
 
-##Supplier
+Supplier:
 ```
 Create a Supplier
 Retrieve a Supplier
@@ -30,7 +30,7 @@ Update a Supplier
 Delete a Supplier
 
 ```
-##Product
+Product:
 ```
 Create a Product
 Retrieve a Product
@@ -38,7 +38,7 @@ Update a Product
 Delete a Product
 
 ```
-##Sales
+Sales:
 ```
 Create a Sales
 Retrieve a Sales
@@ -47,7 +47,7 @@ Delete a Sales
 
 ```
 
-##Customer
+Customer:
 ```
 Create a Customer
 Retrieve a Customer
