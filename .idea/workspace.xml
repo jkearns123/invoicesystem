@@ -4,7 +4,16 @@
     <list default="true" id="2fd9aa96-b010-4732-8b6c-70b8d20acf39" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Assignment1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CalculatorMVC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/CustomerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/CustomerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/UserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,10 +26,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="646">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,6 +47,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>regi</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,29 +62,42 @@
         <option value="$PROJECT_DIR$/src/test/java/com/jade/domain/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jade/util/Miscellaneous.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/UserFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/ProductFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/CustomerFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/SalesFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/ProductFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/SalesFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Sales.java" />
+        <option value="$PROJECT_DIR$/README-Template.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Name.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Contact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Email.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/AddressFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/CustomerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/EmailFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/ContactFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/NameFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/UserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/ProductFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/ContactFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/EmailFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/NameFactoryTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="98" />
-    <option name="y" value="-19" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="width" value="1926" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -75,6 +105,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,93 +119,23 @@
               <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="invoicesystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="invoicesystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="invoicesystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="invoicesystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jade" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="invoicesystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jade" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="invoicesystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jade" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="invoicesystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="invoicesystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="invoicesystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="invoicesystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555165739012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555534941550" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parttime" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -184,6 +146,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jkear\IdeaProjects\invoicesystem" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -198,7 +163,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesFactoryTest">
+  <component name="RunManager" selected="JUnit.NameFactoryTest">
+    <configuration name="EmailFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="invoicesystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jade.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jade.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.jade.factory.EmailFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="invoicesystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jade.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jade.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.jade.factory.NameFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="invoicesystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jade.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jade.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.jade.factory.ProductFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalesFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="invoicesystem" />
       <extension name="coverage">
@@ -214,7 +224,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesFactoryTest.getSalesTestID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="invoicesystem" />
       <extension name="coverage">
         <pattern>
@@ -223,67 +233,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jade.factory" />
-      <option name="MAIN_CLASS_NAME" value="com.jade.factory.SalesFactoryTest" />
-      <option name="METHOD_NAME" value="getSalesTestID" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupplierFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="invoicesystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jade.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jade.factory" />
-      <option name="MAIN_CLASS_NAME" value="com.jade.factory.SupplierFactoryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.jade.factory.UserFactoryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupplierFactoryTest.getSupplierTestID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="invoicesystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jade.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jade.factory" />
-      <option name="MAIN_CLASS_NAME" value="com.jade.factory.SupplierFactoryTest" />
-      <option name="METHOD_NAME" value="getSupplierTestID" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupplierFactoryTest.getSupplierTestName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="invoicesystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jade.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jade.factory" />
-      <option name="MAIN_CLASS_NAME" value="com.jade.factory.SupplierFactoryTest" />
-      <option name="METHOD_NAME" value="getSupplierTestName" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NameFactoryTest" />
+        <item itemvalue="JUnit.UserFactoryTest" />
+        <item itemvalue="JUnit.EmailFactoryTest" />
         <item itemvalue="JUnit.SalesFactoryTest" />
-        <item itemvalue="JUnit.SupplierFactoryTest.getSupplierTestID" />
-        <item itemvalue="JUnit.SalesFactoryTest.getSalesTestID" />
-        <item itemvalue="JUnit.SupplierFactoryTest" />
-        <item itemvalue="JUnit.SupplierFactoryTest.getSupplierTestName" />
+        <item itemvalue="JUnit.ProductFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -299,59 +261,65 @@
       <updated>1554915456122</updated>
       <workItem from="1554915463094" duration="5401000" />
       <workItem from="1555003863877" duration="1785000" />
-      <workItem from="1555138295885" duration="18539000" />
+      <workItem from="1555138295885" duration="19134000" />
+      <workItem from="1555267611702" duration="264000" />
+      <workItem from="1555267907482" duration="3683000" />
+      <workItem from="1555446304950" duration="2285000" />
+      <workItem from="1555515680359" duration="10427000" />
+      <workItem from="1555527907051" duration="6808000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SalesFactoryTest - 2019.04.13 at 16h 06m 09s.xml">
-      <configuration name="SalesFactoryTest" configurationId="JUnit" />
+    <history-entry file="UserFactoryTest - 2019.04.17 at 22h 34m 23s.xml">
+      <configuration name="UserFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesFactoryTest_getSalesTestID - 2019.04.13 at 16h 09m 39s.xml">
-      <configuration name="SalesFactoryTest.getSalesTestID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SupplierFactoryTest_getSupplierTestName - 2019.04.13 at 16h 18m 11s.xml">
-      <configuration name="SupplierFactoryTest.getSupplierTestName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SupplierFactoryTest_getSupplierTestID - 2019.04.13 at 16h 19m 16s.xml">
-      <configuration name="SupplierFactoryTest.getSupplierTestID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SupplierFactoryTest_getSupplierTestName - 2019.04.13 at 16h 21m 11s.xml">
-      <configuration name="SupplierFactoryTest.getSupplierTestName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SupplierFactoryTest - 2019.04.13 at 16h 21m 18s.xml">
+    <history-entry file="SupplierFactoryTest - 2019.04.17 at 22h 34m 30s.xml">
       <configuration name="SupplierFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesFactoryTest_getSalesTestID - 2019.04.13 at 16h 21m 48s.xml">
-      <configuration name="SalesFactoryTest.getSalesTestID" configurationId="JUnit" />
+    <history-entry file="SupplierFactoryTest - 2019.04.17 at 22h 36m 36s.xml">
+      <configuration name="SupplierFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SupplierFactoryTest_getSupplierTestID - 2019.04.13 at 16h 22m 36s.xml">
-      <configuration name="SupplierFactoryTest.getSupplierTestID" configurationId="JUnit" />
+    <history-entry file="UserFactoryTest - 2019.04.17 at 22h 36m 45s.xml">
+      <configuration name="UserFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SupplierFactoryTest_getSupplierTestID - 2019.04.13 at 16h 22m 53s.xml">
-      <configuration name="SupplierFactoryTest.getSupplierTestID" configurationId="JUnit" />
+    <history-entry file="CustomerFactoryTest - 2019.04.17 at 22h 36m 55s.xml">
+      <configuration name="CustomerFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesFactoryTest - 2019.04.13 at 16h 27m 52s.xml">
+    <history-entry file="ProductFactoryTest - 2019.04.17 at 22h 37m 20s.xml">
+      <configuration name="ProductFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesFactoryTest - 2019.04.17 at 22h 37m 25s.xml">
       <configuration name="SalesFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailFactoryTest - 2019.04.17 at 22h 49m 29s.xml">
+      <configuration name="EmailFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserFactoryTest - 2019.04.17 at 22h 49m 58s.xml">
+      <configuration name="UserFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameFactoryTest - 2019.04.17 at 22h 52m 34s.xml">
+      <configuration name="NameFactoryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25725000" />
+    <option name="totallyTimeSpent" value="49787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1" y="0" width="1926" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15594855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13671444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,7 +329,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32855567" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -384,34 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="78" column="59" lean-forward="true" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
-          <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="73" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/util/Miscellaneous.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -419,10 +359,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/modules.uml" />
+    <entry file="file://$PROJECT_DIR$/../uml/invoicesystem.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com.jade.util.Miscellaneous</node>
+            <node x="" y="">com.jade.factory.ProductFactory</node>
+            <node x="" y="">com.jade.factory.UserFactory</node>
+            <node x="" y="">com.jade.domain.Supplier</node>
+            <node x="" y="">com.jade.domain.Product</node>
+            <node x="" y="">com.jade.factory.CustomerFactory</node>
+            <node x="" y="">com.jade.domain.Customer</node>
+            <node x="" y="">com.jade.domain.Sales</node>
+            <node x="" y="">com.jade.domain.User</node>
+            <node x="" y="">com.jade.factory.SupplierFactory</node>
+            <node x="" y="">com.jade.factory.SalesFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.759581881533101" x="763.0" y="564.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CustomerRepositoryStoreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/StudentRepositoryDBimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/CustomerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="158" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="158" />
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Sales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -439,6 +474,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/ProductFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -449,54 +494,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="816">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="71" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Sales.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1190">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="128" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="128" />
+        <state relative-caret-position="1020">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/UserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="94" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="94" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -511,10 +550,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/AddressFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/NameFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/NameFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/ContactFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/EmailFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/EmailFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/ProductFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        <state relative-caret-position="187">
+          <caret line="14" column="83" lean-forward="true" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -523,35 +631,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="156">
+          <caret line="25" selection-start-line="25" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/ContactFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoicesystem.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com.jade.util.Miscellaneous</node>
+            <node x="" y="">com.jade.factory.EmailFactory</node>
+            <node x="" y="">com.jade.factory.ProductFactory</node>
+            <node x="" y="">com.jade.domain.Email</node>
+            <node x="" y="">com.jade.domain.Address</node>
+            <node x="" y="">com.jade.factory.UserFactory</node>
+            <node x="" y="">com.jade.domain.Supplier</node>
+            <node x="" y="">com.jade.domain.Product</node>
+            <node x="" y="">com.jade.factory.CustomerFactory</node>
+            <node x="" y="">com.jade.factory.AddressFactory</node>
+            <node x="" y="">com.jade.factory.ContactFactory</node>
+            <node x="" y="">com.jade.domain.Contact</node>
+            <node x="" y="">com.jade.factory.NameFactory</node>
+            <node x="" y="">com.jade.domain.Customer</node>
+            <node x="" y="">com.jade.domain.Sales</node>
+            <node x="" y="">com.jade.domain.User</node>
+            <node x="" y="">com.jade.factory.SupplierFactory</node>
+            <node x="" y="">com.jade.domain.Name</node>
+            <node x="" y="">com.jade.factory.SalesFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5659937888198758" x="922.0" y="623.9999999999999" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-508">
+            <caret line="6" column="93" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -571,5 +741,55 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>

@@ -1,57 +1,65 @@
 package com.jade.domain;
 
 public class User {
-    private String userId, userFirstName, userLastName, contactNumber;
+    private String userId;
+    private Name name;
+    private Contact contact;
+    private Email email;
 
     private User() {
     }
 
     private User(Builder builder) {
         this.userId = builder.userId;
-        this.userFirstName = builder.userFirstName;
-        this.userLastName = builder.userLastName;
-        this.contactNumber = builder.contactNumber;
+        this.name = builder.name;
+        this.contact = builder.contact;
+        this.email = builder.email;
     }
 
     public String getUserId() {
         return userId;
     }
 
-    public String getUserFirstName() {
-        return userFirstName;
+    public Name getName() {
+        return name;
     }
 
-    public String getUserLastName() {
-        return userLastName;
+    public Contact getContact() {
+        return contact;
     }
 
-    public String getContactNumber() {
-        return contactNumber;
+    public Email getEmail() {
+        return email;
     }
+
 
     public static class Builder {
 
-        private String userId, userFirstName, userLastName, contactNumber;
+        private String userId;
+        private Name name;
+        private Contact contact;
+        private Email email;
+
+        public Builder name(Name name){
+            this.name = name;
+            return this;
+        }
+
+        public Builder contact(Contact contact){
+            this.contact = contact;
+            return this;
+        }
+
+        public Builder email(Email email){
+            this.email = email;
+            return this;
+        }
 
         public Builder userId( String userId) {
             this.userId = userId;
             return this;
         }
 
-        public Builder userFirstName( String userFirstName) {
-            this.userFirstName = userFirstName;
-            return this;
-        }
-
-        public Builder userLastName( String userLastName) {
-            this.userLastName = userLastName;
-            return this;
-        }
-
-        public Builder contactNumber( String contactNumber) {
-            this.contactNumber = contactNumber;
-            return this;
-        }
 
         public User build() {
             return new User(this);
@@ -63,9 +71,9 @@ public class User {
     public String toString() {
         return "User{" +
                 "userId='" + userId + '\'' +
-                ", userFirstName='" + userFirstName + '\'' +
-                ", userLastName='" + userLastName + '\'' +
-                ", contactNumber='" + contactNumber + '\'' +
+                ", name=" + name +
+                ", contact=" + contact +
+                ", email=" + email +
                 '}';
     }
 }

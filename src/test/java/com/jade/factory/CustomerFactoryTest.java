@@ -1,48 +1,59 @@
 package com.jade.factory;
 
-import com.jade.domain.Customer;
+import com.jade.domain.*;
 import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class CustomerFactoryTest {
-    String customerFirstName = "Atlas";
-    String customerLastName = "Mulligan";
-    String customerAddress = "37 Chelmsford court Vredehoek Cape Town";
-    String customerContact = "0214661513";
-    String customerEmail = "AtlMulligan@gmail.com";
+    String firstName = "Atlas";
+    String lastName = "Mulligan";
+    String cellContact = "0219039881";
+    String workContact = "0214661513";
+    String homeContact = "0713074569";
+    String emailAdd = "AtlMulligan@gmail.com";
+    String street = "37 Chelmsford";
+    String city = "Cape Town";
+    String region = "Western Cape";
+    String postalCode = "8001";
 
-    Customer customer = CustomerFactory.getCustomer(customerFirstName, customerLastName, customerAddress, customerContact, customerEmail);
+    Customer customer = CustomerFactory.getCustomer();
+    Name customerName = NameFactory.getName(firstName,lastName);
+    Address customerAddresss = AddressFactory.getAddress(street,city,region,postalCode);
+    Contact customerContacts = ContactFactory.getContact(cellContact,workContact,homeContact);
+    Email customerEmails = EmailFactory.getEmail(emailAdd);
+
+
 
     @Test
     public void getCustomerTestFirstName() {
 
-        Assert.assertEquals("Atlas",customer.getCustomerFirstName());
+        Assert.assertEquals("Atlas",customerName.getFirstName());
     }
 
     @Test
     public void getCustomerTestLastName() {
 
-        Assert.assertEquals("Mulligan",customer.getCustomerLastName());
+        Assert.assertEquals("Mulligan",customerName.getLastName());
     }
 
     @Test
     public void getCustomerTestAddress() {
 
-        Assert.assertEquals("37 Chelmsford court Vredehoek Cape Town",customer.getCustomerAddress());
+        Assert.assertEquals("37 Chelmsford",customerAddresss.getCity());
     }
 
     @Test
     public void getCustomerTestContact() {
 
-        Assert.assertEquals("0214661513",customer.getCustomerContact());
+        Assert.assertEquals("0214661513",customerContacts.getWorkContact());
     }
 
     @Test
     public void getCustomerTestEmail() {
 
-        Assert.assertEquals("AtlMulligan@gmail.com",customer.getCustomerEmail());
+        Assert.assertEquals("AtlMulligan@gmail.com",customerEmails.getEmailAddress());
     }
 
     @Test

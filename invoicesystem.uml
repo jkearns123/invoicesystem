@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="811.0004761904761" y="1004.0">com.jade.util.Miscellaneous</node>
+    <node x="448.5004761904761" y="648.0">com.jade.factory.EmailFactory</node>
+    <node x="1570.7672063492064" y="1216.0">com.jade.factory.ProductFactory</node>
+    <node x="416.7945873015874" y="66.0">com.jade.domain.Email</node>
+    <node x="1294.657619047619" y="0.0">com.jade.domain.Address</node>
+    <node x="256.5" y="1216.0">com.jade.factory.UserFactory</node>
+    <node x="1169.500476190476" y="504.0">com.jade.domain.Supplier</node>
+    <node x="1597.000476190476" y="0.0">com.jade.domain.Product</node>
+    <node x="566.9416031746031" y="1216.0">com.jade.factory.CustomerFactory</node>
+    <node x="1390.500476190476" y="648.0">com.jade.factory.AddressFactory</node>
+    <node x="865.5004761904761" y="648.0">com.jade.factory.ContactFactory</node>
+    <node x="750.9131746031746" y="22.0">com.jade.domain.Contact</node>
+    <node x="0.0" y="648.0">com.jade.factory.NameFactory</node>
+    <node x="652.5004761904761" y="504.0">com.jade.domain.Customer</node>
+    <node x="1041.000476190476" y="904.0">com.jade.domain.Sales</node>
+    <node x="247.0" y="537.0">com.jade.domain.User</node>
+    <node x="1137.7172063492064" y="1216.0">com.jade.factory.SupplierFactory</node>
+    <node x="102.96720634920644" y="44.0">com.jade.domain.Name</node>
+    <node x="870.0004761904761" y="1216.0">com.jade.factory.SalesFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.jade.factory.UserFactory" target="com.jade.util.Miscellaneous">
+      <point x="35.25" y="-26.0" />
+      <point x="362.25" y="1186.0" />
+      <point x="832.0004761904761" y="1186.0" />
+      <point x="-84.0" y="26.0" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Contact">
+      <point x="0.0" y="-170.0" />
+      <point x="749.0004761904761" y="414.0" />
+      <point x="822.6988888888889" y="414.0" />
+      <point x="-28.71428571428578" y="115.0" />
+    </edge>
+    <edge source="com.jade.domain.Supplier" target="com.jade.domain.Contact">
+      <point x="-28.71428571428578" y="-170.0" />
+      <point x="1241.2861904761903" y="304.0" />
+      <point x="908.841746031746" y="304.0" />
+      <point x="57.428571428571445" y="115.0" />
+    </edge>
+    <edge source="com.jade.factory.SupplierFactory" target="com.jade.util.Miscellaneous">
+      <point x="-53.0" y="-26.0" />
+      <point x="1190.7172063492064" y="1186.0" />
+      <point x="958.0004761904761" y="1186.0" />
+      <point x="42.0" y="26.0" />
+    </edge>
+    <edge source="com.jade.domain.Sales" target="com.jade.domain.Product">
+      <point x="69.66666666666674" y="-126.0" />
+      <point x="1215.1671428571428" y="884.0" />
+      <point x="1722.000476190476" y="884.0" />
+      <point x="25.0" y="137.0" />
+    </edge>
+    <edge source="com.jade.factory.ProductFactory" target="com.jade.domain.Product">
+      <point x="68.25" y="-26.0" />
+      <point x="1775.5172063492064" y="484.0" />
+      <point x="1772.000476190476" y="484.0" />
+      <point x="75.0" y="137.0" />
+    </edge>
+    <edge source="com.jade.factory.ProductFactory" target="com.jade.util.Miscellaneous">
+      <point x="-68.25" y="-26.0" />
+      <point x="1639.0172063492064" y="1176.0" />
+      <point x="1000.0004761904761" y="1176.0" />
+      <point x="84.0" y="26.0" />
+    </edge>
+    <edge source="com.jade.domain.Supplier" target="com.jade.domain.Product">
+      <point x="86.14285714285711" y="-170.0" />
+      <point x="1356.1433333333332" y="484.0" />
+      <point x="1672.000476190476" y="484.0" />
+      <point x="-25.0" y="137.0" />
+    </edge>
+    <edge source="com.jade.domain.Supplier" target="com.jade.domain.Address">
+      <point x="28.71428571428578" y="-170.0" />
+      <point x="1298.7147619047619" y="454.0" />
+      <point x="1387.657619047619" y="454.0" />
+      <point x="0.0" y="137.0" />
+    </edge>
+    <edge source="com.jade.domain.Supplier" target="com.jade.domain.Email">
+      <point x="-86.14285714285711" y="-170.0" />
+      <point x="1183.857619047619" y="324.0" />
+      <point x="571.5803015873016" y="324.0" />
+      <point x="56.28571428571422" y="71.0" />
+    </edge>
+    <edge source="com.jade.factory.NameFactory" target="com.jade.domain.Name">
+      <point x="0.0" y="-26.0" />
+      <point x="113.5" y="484.0" />
+      <point x="120.96720634920644" y="484.0" />
+      <point x="-72.0" y="93.0" />
+    </edge>
+    <edge source="com.jade.factory.CustomerFactory" target="com.jade.util.Miscellaneous">
+      <point x="49.75" y="-26.0" />
+      <point x="716.1916031746031" y="1196.0" />
+      <point x="874.0004761904761" y="1196.0" />
+      <point x="-42.0" y="26.0" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Product">
+      <point x="85.77777777777783" y="-170.0" />
+      <point x="834.7782539682539" y="474.0" />
+      <point x="1622.000476190476" y="474.0" />
+      <point x="-75.0" y="137.0" />
+    </edge>
+    <edge source="com.jade.factory.ContactFactory" target="com.jade.domain.Contact">
+      <point x="0.0" y="-26.0" />
+      <point x="1007.5004761904761" y="424.0" />
+      <point x="880.1274603174602" y="424.0" />
+      <point x="28.714285714285666" y="115.0" />
+    </edge>
+    <edge source="com.jade.domain.Sales" target="com.jade.domain.User">
+      <point x="-69.66666666666674" y="-126.0" />
+      <point x="1075.8338095238094" y="874.0" />
+      <point x="381.25" y="874.0" />
+      <point x="44.75" y="137.0" />
+    </edge>
+    <edge source="com.jade.factory.CustomerFactory" target="com.jade.domain.Customer">
+      <point x="-49.75" y="-26.0" />
+      <point x="616.6916031746031" y="884.0" />
+      <point x="700.7504761904761" y="884.0" />
+      <point x="-48.25" y="170.0" />
+    </edge>
+    <edge source="com.jade.factory.SalesFactory" target="com.jade.util.Miscellaneous">
+      <point x="-46.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.jade.factory.AddressFactory" target="com.jade.domain.Address">
+      <point x="0.0" y="-26.0" />
+      <point x="1551.000476190476" y="464.0" />
+      <point x="1462.057619047619" y="464.0" />
+      <point x="74.40000000000009" y="137.0" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Name">
+      <point x="-64.33333333333326" y="-170.0" />
+      <point x="684.6671428571428" y="354.0" />
+      <point x="264.96720634920644" y="354.0" />
+      <point x="72.0" y="93.0" />
+    </edge>
+    <edge source="com.jade.factory.UserFactory" target="com.jade.domain.User">
+      <point x="-35.25" y="-26.0" />
+      <point x="-44.75" y="137.0" />
+    </edge>
+    <edge source="com.jade.factory.EmailFactory" target="com.jade.domain.Email">
+      <point x="0.0" y="-26.0" />
+      <point x="540.5004761904761" y="384.0" />
+      <point x="487.1517301587303" y="384.0" />
+      <point x="-28.14285714285711" y="71.0" />
+    </edge>
+    <edge source="com.jade.factory.SupplierFactory" target="com.jade.domain.Supplier">
+      <point x="53.0" y="-26.0" />
+      <point x="1296.7172063492064" y="874.0" />
+      <point x="1270.000476190476" y="874.0" />
+      <point x="0.0" y="170.0" />
+    </edge>
+    <edge source="com.jade.factory.SalesFactory" target="com.jade.domain.Sales">
+      <point x="46.0" y="-26.0" />
+      <point x="1008.0004761904761" y="1196.0" />
+      <point x="1145.500476190476" y="1196.0" />
+      <point x="0.0" y="126.0" />
+    </edge>
+    <edge source="com.jade.domain.User" target="com.jade.domain.Name">
+      <point x="-74.58333333333326" y="-137.0" />
+      <point x="261.91666666666674" y="484.0" />
+      <point x="156.96720634920644" y="484.0" />
+      <point x="-36.0" y="93.0" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Address">
+      <point x="64.33333333333337" y="-170.0" />
+      <point x="813.3338095238096" y="444.0" />
+      <point x="1350.457619047619" y="444.0" />
+      <point x="-37.200000000000045" y="137.0" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Email">
+      <point x="-21.444444444444457" y="-170.0" />
+      <point x="727.5560317460317" y="334.0" />
+      <point x="543.4374444444445" y="334.0" />
+      <point x="28.14285714285711" y="71.0" />
+    </edge>
+    <edge source="com.jade.domain.User" target="com.jade.domain.Email">
+      <point x="-14.916666666666629" y="-137.0" />
+      <point x="321.58333333333337" y="374.0" />
+      <point x="430.86601587301595" y="374.0" />
+      <point x="-84.42857142857144" y="71.0" />
+    </edge>
+    <edge source="com.jade.domain.Sales" target="com.jade.domain.Customer">
+      <point x="0.0" y="-126.0" />
+      <point x="1145.500476190476" y="864.0" />
+      <point x="797.2504761904761" y="864.0" />
+      <point x="48.25" y="170.0" />
+    </edge>
+    <edge source="com.jade.domain.User" target="com.jade.domain.Contact">
+      <point x="44.75" y="-137.0" />
+      <point x="381.25" y="394.0" />
+      <point x="765.2703174603175" y="394.0" />
+      <point x="-86.14285714285711" y="115.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>com.jade.util.Miscellaneous</node>
+    <node>com.jade.factory.EmailFactory</node>
+    <node>com.jade.factory.ProductFactory</node>
+    <node>com.jade.domain.Email</node>
+    <node>com.jade.domain.Address</node>
+    <node>com.jade.factory.UserFactory</node>
+    <node>com.jade.domain.Supplier</node>
+    <node>com.jade.domain.Product</node>
+    <node>com.jade.factory.CustomerFactory</node>
+    <node>com.jade.factory.AddressFactory</node>
+    <node>com.jade.factory.ContactFactory</node>
+    <node>com.jade.domain.Contact</node>
+    <node>com.jade.factory.NameFactory</node>
+    <node>com.jade.domain.Customer</node>
+    <node>com.jade.domain.Sales</node>
+    <node>com.jade.domain.User</node>
+    <node>com.jade.factory.SupplierFactory</node>
+    <node>com.jade.domain.Name</node>
+    <node>com.jade.factory.SalesFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

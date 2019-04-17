@@ -4,8 +4,11 @@ package com.jade.domain;
 import java.util.Set;
 
 public class Supplier {
-    private String supplierId, supplierName, supplierContact, supplierAddress, supplierEmail;
+    private String supplierId, supplierName;
     private Set<Product> products;
+    private Contact contact;
+    private Address address;
+    private Email email;
 
     private Supplier() {
     }
@@ -13,10 +16,9 @@ public class Supplier {
     private Supplier(Builder builder){
         this.supplierId = builder.supplierId;
         this.supplierName = builder.supplierName;
-        this.supplierContact = builder.supplierContact;
-        this.supplierAddress = builder.supplierAddress;
-        this.supplierEmail = builder.supplierEmail;
-
+        this.contact = builder.contact;
+        this.address = builder.address;
+        this.email = builder.email;
     }
 
     public String getSupplierId() {
@@ -27,21 +29,24 @@ public class Supplier {
         return supplierName;
     }
 
-    public String getSupplierContact() {
-        return supplierContact;
+    public Contact getContact() {
+        return contact;
     }
 
-    public String getSupplierAddress() {
-        return supplierAddress;
+    public Address getAddress() {
+        return address;
     }
 
-    public String getSupplierEmail() {
-        return supplierEmail;
+    public Email getEmail() {
+        return email;
     }
 
     public static class Builder {
-        private String supplierId, supplierName, supplierContact, supplierAddress, supplierEmail;
+        private String supplierId, supplierName;
         private Set<Product> products;
+        private Contact contact;
+        private Address address;
+        private Email email;
 
         public Builder supplierId(String supplierId) {
             this.supplierId = supplierId;
@@ -53,20 +58,21 @@ public class Supplier {
             return this;
         }
 
-        public Builder supplierContact(String supplierContact) {
-            this.supplierContact = supplierContact;
+        public Builder address(Address address){
+            this.address = address;
             return this;
         }
 
-        public Builder supplierAddress(String supplierAddress){
-            this.supplierAddress = supplierAddress;
+        public Builder contact(Contact contact){
+            this.contact = contact;
             return this;
         }
 
-        public Builder supplierEmail(String supplierEmail){
-            this.supplierEmail = supplierEmail;
+        public Builder email(Email email){
+            this.email = email;
             return this;
         }
+
 
         public Supplier build(){
             return new Supplier(this);
@@ -78,9 +84,9 @@ public class Supplier {
         return "Supplier{" +
                 "supplierId='" + supplierId + '\'' +
                 ", supplierName='" + supplierName + '\'' +
-                ", supplierContact='" + supplierContact + '\'' +
-                ", supplierAddress='" + supplierAddress + '\'' +
-                ", supplierEmail='" + supplierEmail + '\'' +
+                ", contact=" + contact +
+                ", address=" + address +
+                ", email=" + email +
                 '}';
     }
 }

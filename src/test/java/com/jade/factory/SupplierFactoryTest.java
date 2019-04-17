@@ -1,5 +1,8 @@
 package com.jade.factory;
 
+import com.jade.domain.Address;
+import com.jade.domain.Contact;
+import com.jade.domain.Email;
 import com.jade.domain.Supplier;
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,10 +13,17 @@ public class SupplierFactoryTest {
 
     String supplierName = "Unilever";
     String supplierContact = "0860572908";
-    String supplierAddress = "Unilever House 100 Victoria Embankment London";
+    String street = "100 Victoria";
+    String city = "Victoria Embankment";
+    String region = "London";
+    String postalCode = "1001";
     String supplierEmail = "consumer.affairs-za@unilever.com";
 
-    Supplier supplier = SupplierFactory.getSupplier(supplierName,supplierContact,supplierAddress,supplierEmail);
+    Supplier supplier = SupplierFactory.getSupplier(supplierName);
+
+    Address supplierAddresss = AddressFactory.getAddress(street,city,region,postalCode);
+    Contact supplierContacts = ContactFactory.getContact(supplierContact,supplierContact,supplierContact);
+    Email supplierEmails = EmailFactory.getEmail(supplierEmail);
 
     @Test
     public void getSupplierTestName() {
@@ -24,19 +34,19 @@ public class SupplierFactoryTest {
     @Test
     public void getSupplierTestContact() {
 
-        Assert.assertEquals("0860572908",supplier.getSupplierContact());
+        Assert.assertEquals("0860572908",supplierContacts.getWorkContact());
     }
 
     @Test
     public void getSupplierTestAddress() {
 
-        Assert.assertEquals("Unilever House 100 Victoria Embankment London",supplier.getSupplierAddress());
+        Assert.assertEquals("London",supplierAddresss.getRegion());
     }
 
     @Test
     public void getSupplierTestEmail() {
 
-        Assert.assertEquals("consumer.affairs-za@unilever.com",supplier.getSupplierEmail());
+        Assert.assertEquals("consumer.affairs-za@unilever.com",supplierEmails.getEmailAddress());
     }
 
     @Test
