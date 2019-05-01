@@ -2,7 +2,7 @@ package com.jade.domain;
 
 import java.util.List;
 
-public class Customer {
+public class Customer implements Comparable<Customer>{
     private String customerId;
     private List<Product>products;
     private Name name;
@@ -42,6 +42,12 @@ public class Customer {
         return email;
     }
 
+    @Override
+    public int compareTo(Customer o) {
+        //this is for sorting ascending order
+        return this.customerId.compareTo(o.customerId);
+    }
+
     public static class Builder{
         private String customerId;
         private List<Product>products;
@@ -76,6 +82,17 @@ public class Customer {
             return this;
         }
 
+        //builder class prevents you from changing the contents of the class, so in order to change the content you make a copy of the class
+        //with a new value and use a reference of that class
+        public Builder Copy(Customer customer){
+            this.customerId = customer.customerId;
+            this.name = customer.name;
+            this.address = customer.address;
+            this.contact = customer.contact;
+            this.email = customer.email;
+
+            return this;
+        }
 
         public Customer build(){return new Customer(this);}
     }
@@ -90,5 +107,20 @@ public class Customer {
                 ", contact=" + contact +
                 ", email=" + email +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Customer customer = (Customer) o;
+
+        return customerId.equals(customer.customerId);
+    }
+
+    @Override
+    public int hashCode() {
+        return customerId.hashCode();
     }
 }

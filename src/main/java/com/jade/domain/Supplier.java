@@ -3,7 +3,7 @@ package com.jade.domain;
 
 import java.util.Set;
 
-public class Supplier {
+public class Supplier implements Comparable<Supplier>{
     private String supplierId, supplierName;
     private Set<Product> products;
     private Contact contact;
@@ -41,6 +41,11 @@ public class Supplier {
         return email;
     }
 
+    @Override
+    public int compareTo(Supplier o) {
+        return this.supplierId.compareTo(o.supplierId);
+    }
+
     public static class Builder {
         private String supplierId, supplierName;
         private Set<Product> products;
@@ -73,6 +78,15 @@ public class Supplier {
             return this;
         }
 
+        public Builder Copy(Supplier supplier){
+            this.supplierId = supplier.supplierId;
+            this.supplierName = supplier.supplierName;
+            this.contact = supplier.contact;
+            this.address = supplier.address;
+            this.email = supplier.email;
+
+            return this;
+        }
 
         public Supplier build(){
             return new Supplier(this);
@@ -88,5 +102,20 @@ public class Supplier {
                 ", address=" + address +
                 ", email=" + email +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Supplier supplier = (Supplier) o;
+
+        return supplierId.equals(supplier.supplierId);
+    }
+
+    @Override
+    public int hashCode() {
+        return supplierId.hashCode();
     }
 }

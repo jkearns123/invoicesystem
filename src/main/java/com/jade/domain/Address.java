@@ -9,7 +9,7 @@ public class Address {
 
     private Address(Builder builder){
         this.street = builder.street;
-        this.city = builder.street;
+        this.city = builder.city;
         this.region = builder.region;
         this.postalCode = builder.postalCode;
 

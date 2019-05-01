@@ -3,7 +3,7 @@ package com.jade.domain;
 import java.util.List;
 import java.util.Set;
 
-public class Sales {
+public class Sales implements Comparable<Sales>{
     private String salesId;
     private double salesTotal;
     private Set<Customer>customers;
@@ -26,6 +26,11 @@ public class Sales {
         return salesTotal;
     }
 
+    @Override
+    public int compareTo(Sales o) {
+        return this.salesId.compareTo(o.salesId);
+    }
+
     public static class Builder{
         private String salesId;
         private double salesTotal;
@@ -43,6 +48,13 @@ public class Sales {
             return this;
         }
 
+        public Builder Copy(Sales sales){
+            this.salesId = sales.salesId;
+            this.salesTotal = sales.salesTotal;
+
+            return this;
+        }
+
         public Sales build() {return new Sales(this);}
     }
 
@@ -52,5 +64,20 @@ public class Sales {
                 "salesId='" + salesId + '\'' +
                 ", salesTotal=" + salesTotal +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Sales sales = (Sales) o;
+
+        return salesId.equals(sales.salesId);
+    }
+
+    @Override
+    public int hashCode() {
+        return salesId.hashCode();
     }
 }

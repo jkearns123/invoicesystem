@@ -5,14 +5,12 @@ import com.jade.domain.Customer;
 import java.util.HashSet;
 import java.util.Set;
 
-//singleton
-public interface CustomerRepository {
+public interface CustomerRepository extends GenericRepository<Customer,String>{
 
-    Customer create(Customer customer);
+    /*Customer create(Customer customer);
     Customer update(Customer customer);
-    Customer delete(Customer customer);
-    Customer read(Customer customer);
-
-
+    void delete(Customer customer);
+    Customer read(String customerId);*/
+    Set<Customer> getAll();
 
 }

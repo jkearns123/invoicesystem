@@ -15,9 +15,15 @@ public class UserFactoryTest {
     String firstName = "Jade";
     String lastName = "Kearns";
     String contactNumber = "0713078199";
+    String workContact = "0214658599";
+    String homeContact = "0114562323";
     String emailAdd = "jkearns123@gmail.com";
 
-    User user = UserFactory.getUser();
+    Name name  = NameFactory.getName(firstName,lastName);
+    Contact contact = ContactFactory.getContact(contactNumber,workContact,homeContact);
+    Email email = EmailFactory.getEmail(emailAdd);
+
+    User user = UserFactory.getUser(name,contact,email);
 
     Name userName = NameFactory.getName(firstName,lastName);
     Contact userContacts = ContactFactory.getContact(contactNumber,contactNumber,contactNumber);

@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="3593.658771929823" y="976.0">com.jade.factory.EmailFactory</node>
+    <node x="1488.7502520505811" y="1938.0">com.jade.repository.impl.SupplierRepositoryDBImpl</node>
+    <node x="5272.939567669171" y="1938.0">com.jade.repository.impl.NameRepositoryDBImpl</node>
+    <node x="4174.772901002505" y="1781.0">com.jade.factory.UserFactory</node>
+    <node x="1407.75" y="799.0">com.jade.domain.Supplier</node>
+    <node x="271.0" y="1938.0">com.jade.repository.impl.ProductRepositoryDBImpl</node>
+    <node x="4356.022901002505" y="1882.0">com.jade.repository.impl.UserRepositoryImpl</node>
+    <node x="1064.75" y="976.0">com.jade.factory.AddressFactory</node>
+    <node x="3037.658771929823" y="976.0">com.jade.factory.ContactFactory</node>
+    <node x="110.02152398040425" y="1781.0">com.jade.repository.ProductRepository</node>
+    <node x="3947.772901002505" y="1781.0">com.jade.repository.CustomerRepository</node>
+    <node x="3366.658771929823" y="799.0">com.jade.domain.Customer</node>
+    <node x="5077.939567669171" y="1938.0">com.jade.repository.impl.EmailRepositoryDBImpl</node>
+    <node x="2209.5002520505814" y="1938.0">com.jade.repository.impl.ContactRepositoryDBImpl</node>
+    <node x="1394.375252050581" y="1781.0">com.jade.repository.SupplierRepository</node>
+    <node x="492.0" y="1938.0">com.jade.repository.impl.AddressRepositoryDBImpl</node>
+    <node x="1938.5002520505811" y="1893.0">com.jade.repository.impl.ContactRepositoryImpl</node>
+    <node x="4493.606234335839" y="1781.0">com.jade.repository.UserRepository</node>
+    <node x="4960.272901002505" y="1781.0">com.jade.repository.EmailRepository</node>
+    <node x="1206.2298573137373" y="1882.0">com.jade.repository.impl.SupplierRepositoryImpl</node>
+    <node x="2370.7502520505814" y="1427.0">com.jade.util.Miscellaneous</node>
+    <node x="509.8986229778993" y="1781.0">com.jade.factory.ProductFactory</node>
+    <node x="3949.9704901458194" y="99.0">com.jade.domain.Email</node>
+    <node x="1288.875252050581" y="33.0">com.jade.domain.Address</node>
+    <node x="2858.4416666666666" y="1394.0">com.jade.repository.GenericRepository</node>
+    <node x="5453.397901002505" y="1781.0">com.jade.repository.NameRepository</node>
+    <node x="352.2502520505809" y="0.0">com.jade.domain.Product</node>
+    <node x="2617.841666666667" y="1882.0">com.jade.repository.impl.SalesRepositoryImpl</node>
+    <node x="3168.658771929823" y="1781.0">com.jade.factory.CustomerFactory</node>
+    <node x="886.0027896445658" y="1893.0">com.jade.repository.impl.AddressRepositoryImpl</node>
+    <node x="0.0" y="1882.0">com.jade.repository.impl.ProductRepositoryImpl</node>
+    <node x="2650.5002520505814" y="55.0">com.jade.domain.Contact</node>
+    <node x="2028.5002520505811" y="1781.0">com.jade.repository.ContactRepository</node>
+    <node x="4849.772901002505" y="976.0">com.jade.factory.NameFactory</node>
+    <node x="2627.4416666666666" y="1294.0">com.jade.domain.Sales</node>
+    <node x="4388.604418717248" y="832.0">com.jade.domain.User</node>
+    <node x="3733.147901002505" y="1938.0">com.jade.repository.impl.CustomerRepositoryDBImpl</node>
+    <node x="2780.0002520505814" y="1781.0">com.jade.repository.SalesRepository</node>
+    <node x="5473.939567669171" y="1893.0">com.jade.repository.impl.NameRepositoryImpl</node>
+    <node x="4794.022901002505" y="1893.0">com.jade.repository.impl.EmailRepositoryImpl</node>
+    <node x="2890.1708333333336" y="1938.0">com.jade.repository.impl.SalesRepositoryDBImpl</node>
+    <node x="804.8986229778993" y="1781.0">com.jade.repository.AddressRepository</node>
+    <node x="1651.5002520505811" y="1781.0">com.jade.factory.SupplierFactory</node>
+    <node x="4608.022901002505" y="1938.0">com.jade.repository.impl.UserRepositoryDBImpl</node>
+    <node x="4473.604418717248" y="77.0">com.jade.domain.Name</node>
+    <node x="3974.147901002505" y="1882.0">com.jade.repository.impl.CustomerRepositoryImpl</node>
+    <node x="2430.2502520505814" y="1781.0">com.jade.factory.SalesFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.jade.factory.UserFactory" target="com.jade.domain.Email">
+      <point x="0.0" y="-25.5" />
+      <point x="4303.772901002505" y="1761.0" />
+      <point x="4290.829166666666" y="1761.0" />
+      <point x="4290.829166666666" y="489.0" />
+      <point x="4056.5776330029626" y="489.0" />
+      <point x="7.107142857143117" y="70.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.ContactRepositoryImpl" target="com.jade.repository.ContactRepository">
+      <point x="94.125" y="-114.5" />
+      <point x="2158.1252520505814" y="1862.0" />
+      <point x="2121.0002520505814" y="1862.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.jade.domain.Supplier" target="com.jade.domain.Contact">
+      <point x="0.0" y="-202.5" />
+      <point x="1509.25" y="599.0" />
+      <point x="2657.7502520505814" y="599.0" />
+      <point x="-94.25" y="114.5" />
+    </edge>
+    <edge source="com.jade.repository.CustomerRepository" target="com.jade.domain.Customer">
+      <point x="48.75" y="-25.5" />
+      <point x="4094.022901002505" y="1244.0" />
+      <point x="3487.408771929823" y="1244.0" />
+      <point x="17.25" y="202.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.SalesRepositoryImpl" target="com.jade.domain.Sales">
+      <point x="-29.375" y="-125.5" />
+      <point x="2705.966666666667" y="1862.0" />
+      <point x="2701.8812343358386" y="1862.0" />
+      <point x="2701.8812343358386" y="1711.0" />
+      <point x="2732.9416666666666" y="1711.0" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="com.jade.factory.SupplierFactory" target="com.jade.util.Miscellaneous">
+      <point x="138.0" y="-25.5" />
+      <point x="1962.0002520505811" y="1711.0" />
+      <point x="2434.350252050581" y="1711.0" />
+      <point x="-42.40000000000009" y="25.5" />
+    </edge>
+    <edge source="com.jade.domain.Sales" target="com.jade.domain.Product">
+      <point x="-70.33333333333348" y="-158.5" />
+      <point x="2662.6083333333336" y="1234.0" />
+      <point x="723.7895676691714" y="1234.0" />
+      <point x="723.7895676691714" y="769.0" />
+      <point x="491.1252520505809" y="769.0" />
+      <point x="37.875" y="169.5" />
+    </edge>
+    <edge source="com.jade.factory.ProductFactory" target="com.jade.domain.Product">
+      <point x="-68.75" y="-25.5" />
+      <point x="578.6486229778993" y="779.0" />
+      <point x="465.8752520505809" y="779.0" />
+      <point x="12.625" y="169.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.ContactRepositoryDBImpl" target="com.jade.domain.Contact">
+      <point x="50.25" y="-69.5" />
+      <point x="2360.2502520505814" y="659.0" />
+      <point x="2744.7502520505814" y="659.0" />
+      <point x="-7.25" y="114.5" />
+    </edge>
+    <edge source="com.jade.factory.UserFactory" target="com.jade.domain.Contact">
+      <point x="-51.600000000000364" y="-25.5" />
+      <point x="4252.172901002505" y="1761.0" />
+      <point x="4260.190289644566" y="1761.0" />
+      <point x="4260.190289644566" y="499.0" />
+      <point x="2817.2502520505814" y="499.0" />
+      <point x="65.25" y="114.5" />
+    </edge>
+    <edge source="com.jade.repository.SalesRepository" target="com.jade.domain.Sales">
+      <point x="-42.25" y="-25.5" />
+      <point x="2822.2502520505814" y="1711.0" />
+      <point x="2775.1416666666664" y="1711.0" />
+      <point x="42.19999999999982" y="158.5" />
+    </edge>
+    <edge source="com.jade.domain.Supplier" target="com.jade.domain.Product">
+      <point x="-87.0" y="-202.5" />
+      <point x="1422.25" y="729.0" />
+      <point x="516.3752520505809" y="729.0" />
+      <point x="63.125" y="169.5" />
+    </edge>
+    <edge source="com.jade.domain.Supplier" target="com.jade.domain.Email">
+      <point x="58.0" y="-202.5" />
+      <point x="1567.25" y="669.0" />
+      <point x="3957.0776330029626" y="669.0" />
+      <point x="-92.39285714285688" y="70.5" />
+    </edge>
+    <edge source="com.jade.domain.Supplier" target="com.jade.domain.Address">
+      <point x="-29.0" y="-202.5" />
+      <point x="1480.25" y="709.0" />
+      <point x="1399.96616114149" y="709.0" />
+      <point x="17.09090909090901" y="136.5" />
+    </edge>
+    <edge source="com.jade.repository.AddressRepository" target="com.jade.repository.GenericRepository">
+      <point x="46.25" y="-25.5" />
+      <point x="943.6486229778993" y="1731.0" />
+      <point x="2882.7750000000005" y="1731.0" />
+      <point x="-48.666666666666515" y="58.5" />
+    </edge>
+    <edge source="com.jade.factory.NameFactory" target="com.jade.domain.Name">
+      <point x="0.0" y="-25.5" />
+      <point x="4964.272901002505" y="419.0" />
+      <point x="4581.149873262702" y="419.0" />
+      <point x="16.54545454545496" y="92.5" />
+    </edge>
+    <edge source="com.jade.repository.SupplierRepository" target="com.jade.repository.GenericRepository">
+      <point x="46.5" y="-25.5" />
+      <point x="1533.875252050581" y="1741.0" />
+      <point x="2898.9972222222223" y="1741.0" />
+      <point x="-32.44444444444434" y="58.5" />
+    </edge>
+    <edge source="com.jade.repository.UserRepository" target="com.jade.domain.User">
+      <point x="41.5" y="-25.5" />
+      <point x="4618.106234335839" y="1274.0" />
+      <point x="4532.604418717248" y="1274.0" />
+      <point x="48.0" y="169.5" />
+    </edge>
+    <edge source="com.jade.factory.CustomerFactory" target="com.jade.util.Miscellaneous">
+      <point x="-151.66666666666652" y="-25.5" />
+      <point x="3198.992105263157" y="1691.0" />
+      <point x="2519.150252050581" y="1691.0" />
+      <point x="42.40000000000009" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.NameRepositoryImpl" target="com.jade.repository.NameRepository">
+      <point x="-90.375" y="-114.5" />
+      <point x="5504.064567669171" y="1862.0" />
+      <point x="5540.897901002505" y="1862.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.EmailRepositoryDBImpl" target="com.jade.domain.Email">
+      <point x="43.75" y="-69.5" />
+      <point x="5209.189567669171" y="1862.0" />
+      <point x="5185.022901002505" y="1862.0" />
+      <point x="5185.022901002505" y="399.0" />
+      <point x="4141.863347288676" y="399.0" />
+      <point x="92.39285714285688" y="70.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.CustomerRepositoryDBImpl" target="com.jade.repository.CustomerRepository">
+      <point x="55.25" y="-69.5" />
+      <point x="3898.897901002505" y="1862.0" />
+      <point x="3980.272901002505" y="1862.0" />
+      <point x="-65.0" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.AddressRepositoryImpl" target="com.jade.domain.Address">
+      <point x="31.375" y="-114.5" />
+      <point x="1042.8777896445658" y="1862.0" />
+      <point x="1031.6277896445658" y="1862.0" />
+      <point x="1031.6277896445658" y="759.0" />
+      <point x="1331.6025247778537" y="759.0" />
+      <point x="-51.27272727272725" y="136.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.SupplierRepositoryImpl" target="com.jade.domain.Supplier">
+      <point x="-31.5" y="-125.5" />
+      <point x="1300.7298573137373" y="1862.0" />
+      <point x="1322.7298573137373" y="1862.0" />
+      <point x="1322.7298573137373" y="1264.0" />
+      <point x="1468.65" y="1264.0" />
+      <point x="-40.59999999999991" y="202.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.SupplierRepositoryImpl" target="com.jade.repository.SupplierRepository">
+      <point x="94.5" y="-125.5" />
+      <point x="1426.7298573137373" y="1862.0" />
+      <point x="1487.375252050581" y="1862.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.NameRepository" target="com.jade.domain.Name">
+      <point x="43.75" y="-25.5" />
+      <point x="5584.647901002505" y="379.0" />
+      <point x="4614.240782353612" y="379.0" />
+      <point x="49.63636363636397" y="92.5" />
+    </edge>
+    <edge source="com.jade.domain.Sales" target="com.jade.domain.User">
+      <point x="70.33333333333348" y="-158.5" />
+      <point x="2803.2750000000005" y="1264.0" />
+      <point x="4404.604418717248" y="1264.0" />
+      <point x="-80.0" y="169.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.CustomerRepositoryImpl" target="com.jade.domain.Customer">
+      <point x="97.875" y="-125.5" />
+      <point x="4202.522901002505" y="1862.0" />
+      <point x="4164.272901002505" y="1862.0" />
+      <point x="4164.272901002505" y="1224.0" />
+      <point x="3556.408771929823" y="1224.0" />
+      <point x="86.25" y="202.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.EmailRepositoryImpl" target="com.jade.repository.EmailRepository">
+      <point x="29.75" y="-114.5" />
+      <point x="4942.772901002505" y="1862.0" />
+      <point x="4988.939567669172" y="1862.0" />
+      <point x="-57.33333333333303" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.AddressRepositoryImpl" target="com.jade.repository.AddressRepository">
+      <point x="-31.375" y="-114.5" />
+      <point x="980.1277896445658" y="1862.0" />
+      <point x="959.0652896445658" y="1862.0" />
+      <point x="61.66666666666663" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.UserRepositoryImpl" target="com.jade.domain.User">
+      <point x="-29.0" y="-125.5" />
+      <point x="4443.022901002505" y="1862.0" />
+      <point x="4454.272901002505" y="1862.0" />
+      <point x="4454.272901002505" y="1274.0" />
+      <point x="4500.604418717248" y="1274.0" />
+      <point x="16.0" y="169.5" />
+    </edge>
+    <edge source="com.jade.repository.ContactRepository" target="com.jade.repository.GenericRepository">
+      <point x="46.25" y="-25.5" />
+      <point x="2167.2502520505814" y="1751.0" />
+      <point x="2915.219444444445" y="1751.0" />
+      <point x="-16.22222222222217" y="58.5" />
+    </edge>
+    <edge source="com.jade.repository.UserRepository" target="com.jade.repository.GenericRepository">
+      <point x="-41.5" y="-25.5" />
+      <point x="4535.106234335839" y="1651.0" />
+      <point x="2963.886111111111" y="1651.0" />
+      <point x="32.44444444444434" y="58.5" />
+    </edge>
+    <edge source="com.jade.repository.ProductRepository" target="com.jade.repository.GenericRepository">
+      <point x="46.25" y="-25.5" />
+      <point x="248.77152398040425" y="1721.0" />
+      <point x="2866.552777777778" y="1721.0" />
+      <point x="-64.88888888888869" y="58.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.AddressRepositoryDBImpl" target="com.jade.domain.Address">
+      <point x="-50.25" y="-69.5" />
+      <point x="542.25" y="1862.0" />
+      <point x="499.3986229778993" y="1862.0" />
+      <point x="499.3986229778993" y="1274.0" />
+      <point x="734.7895676691714" y="1274.0" />
+      <point x="734.7895676691714" y="739.0" />
+      <point x="1297.4207065960354" y="739.0" />
+      <point x="-85.4545454545455" y="136.5" />
+    </edge>
+    <edge source="com.jade.factory.AddressFactory" target="com.jade.domain.Address">
+      <point x="0.0" y="-25.5" />
+      <point x="1226.25" y="779.0" />
+      <point x="1365.784342959672" y="779.0" />
+      <point x="-17.09090909090901" y="136.5" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Name">
+      <point x="92.0" y="-202.5" />
+      <point x="3562.158771929823" y="749.0" />
+      <point x="4498.42260053543" y="749.0" />
+      <point x="-66.18181818181802" y="92.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.SalesRepositoryImpl" target="com.jade.repository.SalesRepository">
+      <point x="88.125" y="-125.5" />
+      <point x="2823.466666666667" y="1862.0" />
+      <point x="2864.5002520505814" y="1862.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.jade.factory.UserFactory" target="com.jade.domain.User">
+      <point x="103.19999999999982" y="-25.5" />
+      <point x="4406.972901002505" y="1751.0" />
+      <point x="4354.658771929823" y="1751.0" />
+      <point x="4354.658771929823" y="1274.0" />
+      <point x="4436.604418717248" y="1274.0" />
+      <point x="-48.0" y="169.5" />
+    </edge>
+    <edge source="com.jade.factory.EmailFactory" target="com.jade.domain.Email">
+      <point x="0.0" y="-25.5" />
+      <point x="3686.658771929823" y="729.0" />
+      <point x="4042.3633472886763" y="729.0" />
+      <point x="-7.107142857143117" y="70.5" />
+    </edge>
+    <edge source="com.jade.repository.SupplierRepository" target="com.jade.domain.Supplier">
+      <point x="-46.5" y="-25.5" />
+      <point x="1440.875252050581" y="1274.0" />
+      <point x="1509.25" y="1274.0" />
+      <point x="0.0" y="202.5" />
+    </edge>
+    <edge source="com.jade.factory.CustomerFactory" target="com.jade.domain.Address">
+      <point x="-91.0" y="-25.5" />
+      <point x="3259.658771929823" y="1681.0" />
+      <point x="3027.158771929823" y="1681.0" />
+      <point x="3027.158771929823" y="579.0" />
+      <point x="1434.1479793233082" y="579.0" />
+      <point x="51.27272727272725" y="136.5" />
+    </edge>
+    <edge source="com.jade.factory.SupplierFactory" target="com.jade.domain.Supplier">
+      <point x="-138.0" y="-25.5" />
+      <point x="1686.0002520505811" y="1691.0" />
+      <point x="1749.6046052631568" y="1691.0" />
+      <point x="1749.6046052631568" y="1264.0" />
+      <point x="1590.45" y="1264.0" />
+      <point x="81.20000000000005" y="202.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.CustomerRepositoryImpl" target="com.jade.repository.CustomerRepository">
+      <point x="-97.875" y="-125.5" />
+      <point x="4006.772901002505" y="1862.0" />
+      <point x="4045.272901002505" y="1862.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.jade.factory.SalesFactory" target="com.jade.domain.Sales">
+      <point x="46.5" y="-25.5" />
+      <point x="2569.7502520505814" y="1711.0" />
+      <point x="2648.541666666667" y="1711.0" />
+      <point x="-84.40000000000009" y="158.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.ProductRepositoryDBImpl" target="com.jade.domain.Product">
+      <point x="50.25" y="-69.5" />
+      <point x="421.75" y="1862.0" />
+      <point x="392.1666666666665" y="1862.0" />
+      <point x="392.1666666666665" y="779.0" />
+      <point x="440.6252520505809" y="779.0" />
+      <point x="-12.625" y="169.5" />
+    </edge>
+    <edge source="com.jade.factory.SupplierFactory" target="com.jade.domain.Contact">
+      <point x="0.0" y="-25.5" />
+      <point x="1824.0002520505811" y="1691.0" />
+      <point x="1842.4798573137377" y="1691.0" />
+      <point x="1842.4798573137377" y="619.0" />
+      <point x="2686.7502520505814" y="619.0" />
+      <point x="-65.25" y="114.5" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Email">
+      <point x="23.0" y="-202.5" />
+      <point x="3493.158771929823" y="709.0" />
+      <point x="4013.9347758601048" y="709.0" />
+      <point x="-35.535714285714675" y="70.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.SupplierRepositoryDBImpl" target="com.jade.domain.Supplier">
+      <point x="50.75" y="-69.5" />
+      <point x="1641.0002520505811" y="1274.0" />
+      <point x="1549.85" y="1274.0" />
+      <point x="40.59999999999991" y="202.5" />
+    </edge>
+    <edge source="com.jade.domain.Sales" target="com.jade.domain.Customer">
+      <point x="0.0" y="-158.5" />
+      <point x="2732.9416666666666" y="1254.0" />
+      <point x="3383.908771929823" y="1254.0" />
+      <point x="-86.25" y="202.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.CustomerRepositoryDBImpl" target="com.jade.domain.Customer">
+      <point x="-55.25" y="-69.5" />
+      <point x="3788.397901002505" y="1862.0" />
+      <point x="3801.158771929823" y="1862.0" />
+      <point x="3801.158771929823" y="1254.0" />
+      <point x="3452.908771929823" y="1254.0" />
+      <point x="-17.25" y="202.5" />
+    </edge>
+    <edge source="com.jade.factory.UserFactory" target="com.jade.util.Miscellaneous">
+      <point x="-103.19999999999982" y="-25.5" />
+      <point x="4200.572901002505" y="1661.0" />
+      <point x="2561.5502520505815" y="1661.0" />
+      <point x="84.80000000000018" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.EmailRepositoryImpl" target="com.jade.domain.Email">
+      <point x="-89.25" y="-114.5" />
+      <point x="4823.772901002505" y="1862.0" />
+      <point x="4753.634023980405" y="1862.0" />
+      <point x="4753.634023980405" y="439.0" />
+      <point x="4099.220490145819" y="439.0" />
+      <point x="49.75" y="70.5" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Contact">
+      <point x="0.0" y="-202.5" />
+      <point x="3470.158771929823" y="509.0" />
+      <point x="2802.7502520505814" y="509.0" />
+      <point x="50.75" y="114.5" />
+    </edge>
+    <edge source="com.jade.repository.SalesRepository" target="com.jade.repository.GenericRepository">
+      <point x="42.25" y="-25.5" />
+      <point x="2906.7502520505814" y="1761.0" />
+      <point x="2931.4416666666666" y="1761.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="com.jade.repository.EmailRepository" target="com.jade.repository.GenericRepository">
+      <point x="-43.0" y="-25.5" />
+      <point x="5003.272901002505" y="1641.0" />
+      <point x="2980.1083333333336" y="1641.0" />
+      <point x="48.666666666666515" y="58.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.EmailRepositoryDBImpl" target="com.jade.repository.EmailRepository">
+      <point x="-43.75" y="-69.5" />
+      <point x="5121.689567669171" y="1862.0" />
+      <point x="5103.606234335838" y="1862.0" />
+      <point x="57.33333333333303" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.SalesRepositoryDBImpl" target="com.jade.domain.Sales">
+      <point x="42.25" y="-69.5" />
+      <point x="3016.9208333333336" y="1862.0" />
+      <point x="2994.0041666666666" y="1862.0" />
+      <point x="2994.0041666666666" y="1701.0" />
+      <point x="2817.341666666667" y="1701.0" />
+      <point x="84.40000000000009" y="158.5" />
+    </edge>
+    <edge source="com.jade.factory.CustomerFactory" target="com.jade.domain.Contact">
+      <point x="-30.333333333333485" y="-25.5" />
+      <point x="3320.32543859649" y="1761.0" />
+      <point x="3345.158771929823" y="1761.0" />
+      <point x="3345.158771929823" y="559.0" />
+      <point x="2773.7502520505814" y="559.0" />
+      <point x="21.75" y="114.5" />
+    </edge>
+    <edge source="com.jade.repository.EmailRepository" target="com.jade.domain.Email">
+      <point x="43.0" y="-25.5" />
+      <point x="5089.272901002505" y="409.0" />
+      <point x="4127.649061574391" y="409.0" />
+      <point x="78.17857142857156" y="70.5" />
+    </edge>
+    <edge source="com.jade.factory.SupplierFactory" target="com.jade.domain.Email">
+      <point x="69.0" y="-25.5" />
+      <point x="1893.0002520505811" y="1691.0" />
+      <point x="1928.6895676691715" y="1691.0" />
+      <point x="1928.6895676691715" y="1244.0" />
+      <point x="3334.158771929823" y="1244.0" />
+      <point x="3334.158771929823" y="689.0" />
+      <point x="3985.506204431534" y="689.0" />
+      <point x="-63.964285714285325" y="70.5" />
+    </edge>
+    <edge source="com.jade.factory.ProductFactory" target="com.jade.util.Miscellaneous">
+      <point x="68.75" y="-25.5" />
+      <point x="716.1486229778993" y="1701.0" />
+      <point x="2391.950252050581" y="1701.0" />
+      <point x="-84.80000000000018" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.AddressRepositoryDBImpl" target="com.jade.repository.AddressRepository">
+      <point x="50.25" y="-69.5" />
+      <point x="642.75" y="1862.0" />
+      <point x="835.7319563112328" y="1862.0" />
+      <point x="-61.66666666666663" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.ProductRepositoryImpl" target="com.jade.domain.Product">
+      <point x="-94.125" y="-125.5" />
+      <point x="31.375" y="1862.0" />
+      <point x="65.91456766917145" y="1862.0" />
+      <point x="65.91456766917145" y="749.0" />
+      <point x="364.8752520505809" y="749.0" />
+      <point x="-88.375" y="169.5" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Product">
+      <point x="-92.0" y="-202.5" />
+      <point x="3378.158771929823" y="549.0" />
+      <point x="541.6252520505809" y="549.0" />
+      <point x="88.375" y="169.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.NameRepositoryImpl" target="com.jade.domain.Name">
+      <point x="30.125" y="-114.5" />
+      <point x="5624.564567669171" y="1862.0" />
+      <point x="5638.897901002505" y="1862.0" />
+      <point x="5638.897901002505" y="369.0" />
+      <point x="4630.786236899066" y="369.0" />
+      <point x="66.18181818181802" y="92.5" />
+    </edge>
+    <edge source="com.jade.factory.ContactFactory" target="com.jade.domain.Contact">
+      <point x="0.0" y="-25.5" />
+      <point x="3180.658771929823" y="569.0" />
+      <point x="2759.2502520505814" y="569.0" />
+      <point x="7.25" y="114.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.ProductRepositoryImpl" target="com.jade.repository.ProductRepository">
+      <point x="94.125" y="-125.5" />
+      <point x="219.625" y="1862.0" />
+      <point x="202.52152398040425" y="1862.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.UserRepositoryDBImpl" target="com.jade.domain.User">
+      <point x="41.5" y="-69.5" />
+      <point x="4732.522901002505" y="1862.0" />
+      <point x="4710.106234335839" y="1862.0" />
+      <point x="4710.106234335839" y="1264.0" />
+      <point x="4564.604418717248" y="1264.0" />
+      <point x="80.0" y="169.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.UserRepositoryDBImpl" target="com.jade.repository.UserRepository">
+      <point x="-41.5" y="-69.5" />
+      <point x="4649.522901002505" y="1862.0" />
+      <point x="4631.939567669171" y="1862.0" />
+      <point x="55.33333333333303" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.ProductRepository" target="com.jade.domain.Product">
+      <point x="-46.25" y="-25.5" />
+      <point x="156.27152398040425" y="769.0" />
+      <point x="415.3752520505809" y="769.0" />
+      <point x="-37.875" y="169.5" />
+    </edge>
+    <edge source="com.jade.factory.CustomerFactory" target="com.jade.domain.Name">
+      <point x="151.66666666666652" y="-25.5" />
+      <point x="3502.32543859649" y="1761.0" />
+      <point x="3790.158771929823" y="1761.0" />
+      <point x="3790.158771929823" y="759.0" />
+      <point x="4514.968055080884" y="759.0" />
+      <point x="-49.63636363636397" y="92.5" />
+    </edge>
+    <edge source="com.jade.factory.CustomerFactory" target="com.jade.domain.Customer">
+      <point x="91.0" y="-25.5" />
+      <point x="3441.658771929823" y="1761.0" />
+      <point x="3428.740289644566" y="1761.0" />
+      <point x="3428.740289644566" y="1254.0" />
+      <point x="3418.408771929823" y="1254.0" />
+      <point x="-51.75" y="202.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.NameRepositoryDBImpl" target="com.jade.repository.NameRepository">
+      <point x="45.25" y="-69.5" />
+      <point x="5408.689567669171" y="1862.0" />
+      <point x="5482.564567669172" y="1862.0" />
+      <point x="-58.33333333333303" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.SalesRepositoryDBImpl" target="com.jade.repository.SalesRepository">
+      <point x="-42.25" y="-69.5" />
+      <point x="2932.4208333333336" y="1862.0" />
+      <point x="2920.8335853839144" y="1862.0" />
+      <point x="56.333333333333485" y="25.5" />
+    </edge>
+    <edge source="com.jade.factory.SalesFactory" target="com.jade.util.Miscellaneous">
+      <point x="-46.5" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.NameRepository" target="com.jade.repository.GenericRepository">
+      <point x="-43.75" y="-25.5" />
+      <point x="5497.147901002505" y="1631.0" />
+      <point x="2996.330555555556" y="1631.0" />
+      <point x="64.88888888888914" y="58.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.NameRepositoryDBImpl" target="com.jade.domain.Name">
+      <point x="-45.25" y="-69.5" />
+      <point x="5318.189567669171" y="389.0" />
+      <point x="4597.695327808156" y="389.0" />
+      <point x="33.09090909090901" y="92.5" />
+    </edge>
+    <edge source="com.jade.repository.CustomerRepository" target="com.jade.repository.GenericRepository">
+      <point x="-48.75" y="-25.5" />
+      <point x="3996.522901002505" y="1671.0" />
+      <point x="2947.6638888888892" y="1671.0" />
+      <point x="16.22222222222217" y="58.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.SupplierRepositoryDBImpl" target="com.jade.repository.SupplierRepository">
+      <point x="-50.75" y="-69.5" />
+      <point x="1539.5002520505811" y="1862.0" />
+      <point x="1549.375252050581" y="1862.0" />
+      <point x="62.0" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.AddressRepository" target="com.jade.domain.Address">
+      <point x="-46.25" y="-25.5" />
+      <point x="851.1486229778993" y="749.0" />
+      <point x="1314.5116156869447" y="749.0" />
+      <point x="-68.36363636363626" y="136.5" />
+    </edge>
+    <edge source="com.jade.factory.CustomerFactory" target="com.jade.domain.Email">
+      <point x="30.333333333333485" y="-25.5" />
+      <point x="3380.992105263157" y="1761.0" />
+      <point x="3356.158771929823" y="1761.0" />
+      <point x="3356.158771929823" y="699.0" />
+      <point x="3999.7204901458194" y="699.0" />
+      <point x="-49.75" y="70.5" />
+    </edge>
+    <edge source="com.jade.domain.User" target="com.jade.domain.Name">
+      <point x="48.0" y="-169.5" />
+      <point x="4532.604418717248" y="779.0" />
+      <point x="4548.0589641717925" y="779.0" />
+      <point x="-16.54545454545496" y="92.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.ContactRepositoryDBImpl" target="com.jade.repository.ContactRepository">
+      <point x="-50.25" y="-69.5" />
+      <point x="2259.7502520505814" y="1862.0" />
+      <point x="2182.6669187172474" y="1862.0" />
+      <point x="61.666666666666515" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.ContactRepository" target="com.jade.domain.Contact">
+      <point x="-46.25" y="-25.5" />
+      <point x="2074.7502520505814" y="649.0" />
+      <point x="2730.2502520505814" y="649.0" />
+      <point x="-21.75" y="114.5" />
+    </edge>
+    <edge source="com.jade.domain.Customer" target="com.jade.domain.Address">
+      <point x="-46.0" y="-202.5" />
+      <point x="3424.158771929823" y="529.0" />
+      <point x="1468.3297975051264" y="529.0" />
+      <point x="85.4545454545455" y="136.5" />
+    </edge>
+    <edge source="com.jade.domain.User" target="com.jade.domain.Email">
+      <point x="-16.0" y="-169.5" />
+      <point x="4468.604418717248" y="459.0" />
+      <point x="4070.791918717248" y="459.0" />
+      <point x="21.32142857142844" y="70.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.ContactRepositoryImpl" target="com.jade.domain.Contact">
+      <point x="-94.125" y="-114.5" />
+      <point x="1969.8752520505811" y="1862.0" />
+      <point x="2007.0002520505811" y="1862.0" />
+      <point x="2007.0002520505811" y="629.0" />
+      <point x="2701.2502520505814" y="629.0" />
+      <point x="-50.75" y="114.5" />
+    </edge>
+    <edge source="com.jade.factory.SupplierFactory" target="com.jade.domain.Address">
+      <point x="-69.0" y="-25.5" />
+      <point x="1755.0002520505811" y="1691.0" />
+      <point x="1770.5046052631565" y="1691.0" />
+      <point x="1770.5046052631565" y="589.0" />
+      <point x="1417.0570702323992" y="589.0" />
+      <point x="34.181818181818244" y="136.5" />
+    </edge>
+    <edge source="com.jade.domain.User" target="com.jade.domain.Contact">
+      <point x="-80.0" y="-169.5" />
+      <point x="4404.604418717248" y="479.0" />
+      <point x="2831.7502520505814" y="479.0" />
+      <point x="79.75" y="114.5" />
+    </edge>
+    <edge source="com.jade.factory.UserFactory" target="com.jade.domain.Name">
+      <point x="51.600000000000364" y="-25.5" />
+      <point x="4355.372901002505" y="1761.0" />
+      <point x="4335.440289644566" y="1761.0" />
+      <point x="4335.440289644566" y="769.0" />
+      <point x="4531.513509626338" y="769.0" />
+      <point x="-33.09090909090901" y="92.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.ProductRepositoryDBImpl" target="com.jade.repository.ProductRepository">
+      <point x="-50.25" y="-69.5" />
+      <point x="321.25" y="1862.0" />
+      <point x="264.18819064707077" y="1862.0" />
+      <point x="61.66666666666663" y="25.5" />
+    </edge>
+    <edge source="com.jade.repository.impl.UserRepositoryImpl" target="com.jade.repository.UserRepository">
+      <point x="29.0" y="-125.5" />
+      <point x="4501.022901002505" y="1862.0" />
+      <point x="4521.272901002505" y="1862.0" />
+      <point x="-55.33333333333303" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1921.5" y="339.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

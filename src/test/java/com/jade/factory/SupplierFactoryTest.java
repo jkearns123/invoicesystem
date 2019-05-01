@@ -13,13 +13,18 @@ public class SupplierFactoryTest {
 
     String supplierName = "Unilever";
     String supplierContact = "0860572908";
+    String supplierWorkContact = "0213078199";
     String street = "100 Victoria";
     String city = "Victoria Embankment";
     String region = "London";
     String postalCode = "1001";
     String supplierEmail = "consumer.affairs-za@unilever.com";
 
-    Supplier supplier = SupplierFactory.getSupplier(supplierName);
+    Contact contact = ContactFactory.getContact(supplierContact,supplierWorkContact,"");
+    Address address = AddressFactory.getAddress(street,city,region,postalCode);
+    Email email = EmailFactory.getEmail(supplierEmail);
+
+    Supplier supplier = SupplierFactory.getSupplier(supplierName,contact,address,email);
 
     Address supplierAddresss = AddressFactory.getAddress(street,city,region,postalCode);
     Contact supplierContacts = ContactFactory.getContact(supplierContact,supplierContact,supplierContact);

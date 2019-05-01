@@ -18,11 +18,12 @@ public class CustomerFactoryTest {
     String region = "Western Cape";
     String postalCode = "8001";
 
-    Customer customer = CustomerFactory.getCustomer();
+
     Name customerName = NameFactory.getName(firstName,lastName);
     Address customerAddresss = AddressFactory.getAddress(street,city,region,postalCode);
     Contact customerContacts = ContactFactory.getContact(cellContact,workContact,homeContact);
     Email customerEmails = EmailFactory.getEmail(emailAdd);
+    Customer customer = CustomerFactory.getCustomer(customerName,customerAddresss,customerContacts,customerEmails);
 
 
 

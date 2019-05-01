@@ -1,6 +1,6 @@
 package com.jade.domain;
 
-public class User {
+public class User implements Comparable<User>{
     private String userId;
     private Name name;
     private Contact contact;
@@ -32,6 +32,11 @@ public class User {
         return email;
     }
 
+    @Override
+    public int compareTo(User o) {
+        return this.userId.compareTo(o.userId);
+    }
+
 
     public static class Builder {
 
@@ -60,6 +65,15 @@ public class User {
             return this;
         }
 
+        public Builder Copy(User user){
+            this.userId = user.userId;
+            this.name = user.name;
+            this.contact = user.contact;
+            this.email = user.email;
+
+            return this;
+        }
+
 
         public User build() {
             return new User(this);
@@ -75,5 +89,20 @@ public class User {
                 ", contact=" + contact +
                 ", email=" + email +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        User user = (User) o;
+
+        return userId.equals(user.userId);
+    }
+
+    @Override
+    public int hashCode() {
+        return userId.hashCode();
     }
 }
