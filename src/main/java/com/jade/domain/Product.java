@@ -1,6 +1,8 @@
 package com.jade.domain;
 
-public class Product implements Comparable<Product>{
+import java.util.Objects;
+
+public class Product{
     private String productId, productName;
     private int productQuantity;
     private double price;
@@ -32,10 +34,6 @@ public class Product implements Comparable<Product>{
         return price;
     }
 
-    @Override
-    public int compareTo(Product o) {
-        return this.productId.compareTo(o.productId);
-    }
 
     public static class Builder{
         private String productId, productName;
@@ -83,8 +81,8 @@ public class Product implements Comparable<Product>{
                 ", price=" + price +
                 '}';
     }
+//identify Id as Unique each objects
 
-    //identify Id as Unique each objects
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -97,6 +95,6 @@ public class Product implements Comparable<Product>{
 
     @Override
     public int hashCode() {
-        return productId.hashCode();
+        return Objects.hash(productId);
     }
 }

@@ -2,10 +2,12 @@ package com.jade.repository.impl;
 
 import com.jade.domain.Sales;
 import com.jade.repository.SalesRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory9")
 public class SalesRepositoryImpl implements SalesRepository {
 
     //changed from private static SalesRepository repository = null;
@@ -17,7 +19,7 @@ public class SalesRepositoryImpl implements SalesRepository {
     }
 
 
-    public static SalesRepository getRepository(){
+    public static SalesRepositoryImpl getRepository(){
         if(repository == null) repository = new SalesRepositoryImpl();
         return repository;
     }
@@ -43,14 +45,15 @@ public class SalesRepositoryImpl implements SalesRepository {
     }
 
     public Sales read(final String salesId){
-        return findSales(salesId);
+        Sales sales = findSales(salesId);
+        return sales;
     }
 
     public Sales update(Sales sales){
-        Sales s = findSales(sales.getSalesId());
-        if(s != null){
-            Sales ss = new Sales.Builder().Copy(sales).build();
-            return create(ss);
+        Sales toDelete = findSales(sales.getSalesId());
+        if(toDelete != null){
+            this.saless.remove(toDelete);
+            return create(sales);
         }
         return null;
     }

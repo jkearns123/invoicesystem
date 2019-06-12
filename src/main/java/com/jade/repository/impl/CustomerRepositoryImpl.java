@@ -2,10 +2,12 @@ package com.jade.repository.impl;
 
 import com.jade.domain.Customer;
 import com.jade.repository.CustomerRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory1")
 public class CustomerRepositoryImpl implements CustomerRepository {
 
     //singleton
@@ -18,7 +20,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
     }
 
     //make sure to use CustomerRepositoryImpl
-    public static CustomerRepository getRepository(){
+    public static CustomerRepositoryImpl getRepository(){
         if(repository == null) repository = new CustomerRepositoryImpl();
         return repository;
     }
@@ -35,7 +37,8 @@ public class CustomerRepositoryImpl implements CustomerRepository {
     }
 
     public Customer read(final String customerId){
-        return findCustomer(customerId);
+        Customer customer = findCustomer(customerId);
+        return customer;
     }
 
     private Customer findCustomer( final String customerId){
@@ -47,10 +50,10 @@ public class CustomerRepositoryImpl implements CustomerRepository {
     }
 
     public Customer update(Customer customer){
-        Customer c = findCustomer(customer.getCustomerId());
-        if(c != null){
-            Customer cc = new Customer.Builder().Copy(customer).build();
-            return create(cc);
+        Customer toDelete = findCustomer(customer.getCustomerId());
+        if(toDelete != null){
+            this.customers.remove(toDelete);
+            return create(customer);
         }
         return null;
     }

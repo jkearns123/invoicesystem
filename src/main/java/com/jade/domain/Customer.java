@@ -2,7 +2,7 @@ package com.jade.domain;
 
 import java.util.List;
 
-public class Customer implements Comparable<Customer>{
+public class Customer{
     private String customerId;
     private List<Product>products;
     private Name name;
@@ -40,12 +40,6 @@ public class Customer implements Comparable<Customer>{
 
     public Email getEmail() {
         return email;
-    }
-
-    @Override
-    public int compareTo(Customer o) {
-        //this is for sorting ascending order
-        return this.customerId.compareTo(o.customerId);
     }
 
     public static class Builder{

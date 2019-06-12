@@ -4,26 +4,53 @@
     <list default="true" id="2fd9aa96-b010-4732-8b6c-70b8d20acf39" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Assignment1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CalculatorMVC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jade/InvoiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jade/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jade/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jade/service/Impl/AddressServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jade/service/Impl/CustomerServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicesystem.uml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicesystem_uml.png" beforeDir="false" afterPath="$PROJECT_DIR$/invoicesystem_uml.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Name.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Sales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/CustomerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/CustomerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/UserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CustomerRepositoryStoreImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/StudentRepositoryDBimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/AddressFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/AddressFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/ContactFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/ContactFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/EmailFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/EmailFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/factory/NameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/factory/NameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ContactRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ContactRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/EmailRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/EmailRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/NameRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/NameRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SalesRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SalesRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SupplierRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SupplierRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/service/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/service/GenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Address$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Address$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Contact$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Contact$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Contact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Customer$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Customer$Builder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Email$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Email$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Email.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Name$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Name$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Name.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Product$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Product$Builder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Sales$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Sales$Builder.class" afterDir="false" />
@@ -32,15 +59,48 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/Supplier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/User$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/User$Builder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/factory/AddressFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/factory/AddressFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/factory/ContactFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/factory/ContactFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/factory/CustomerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/factory/CustomerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/factory/EmailFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/factory/EmailFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/factory/NameFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/factory/NameFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/factory/ProductFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/factory/ProductFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/factory/SalesFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/factory/SalesFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/factory/SupplierFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/factory/SupplierFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jade/factory/UserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/factory/UserFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/CustomerRepositoryStoreImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/StudentRepositoryDBimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/GenericRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/GenericRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/AddressRepositoryDBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/AddressRepositoryDBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/AddressRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/AddressRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/ContactRepositoryDBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/ContactRepositoryDBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/ContactRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/ContactRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/CustomerRepositoryDBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/CustomerRepositoryDBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/CustomerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/CustomerRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/EmailRepositoryDBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/EmailRepositoryDBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/EmailRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/EmailRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/NameRepositoryDBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/NameRepositoryDBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/NameRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/NameRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/ProductRepositoryDBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/ProductRepositoryDBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/ProductRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/SalesRepositoryDBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/SalesRepositoryDBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/SalesRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/SalesRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/SupplierRepositoryDBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/SupplierRepositoryDBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/SupplierRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/SupplierRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/UserRepositoryDBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/UserRepositoryDBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/repository/impl/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/service/GenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/service/GenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jade/service/Impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jade/service/Impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/factory/AddressFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/factory/AddressFactoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/factory/CustomerFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/factory/CustomerFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/factory/SupplierFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/factory/SupplierFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/factory/UserFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/factory/UserFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/AddressRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/AddressRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/ContactRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/ContactRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/CustomerRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/CustomerRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/EmailRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/EmailRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/NameRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/NameRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/ProductRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/ProductRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/SalesRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/SalesRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/SupplierRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/SupplierRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/UserRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jade/repository/impl/UserRepositoryImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,6 +110,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
@@ -57,15 +131,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>regi</find>
+      <find>copy</find>
+      <find>hash</find>
+      <find>customer</find>
+      <find>Customer</find>
+      <find>Address</find>
+      <find>student</find>
+      <find>address</find>
+      <find>@WebAppConfiguration</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,65 +158,72 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/service/Impl/ProductServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/SupplierService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/service/Impl/SupplierServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/service/Impl/CustomerServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Sales.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/CustomerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CustomerRepositoryDBImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/SalesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/SupplierRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SalesRepositoryDBImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SupplierRepositoryDBImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/UserRepositoryDBImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/ProductRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/GenericRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ProductRepositoryDBImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/CustomerFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/factory/UserFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/UserRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ProductRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/SalesService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/service/Impl/SalesServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CustomerRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SupplierRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SalesRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/repository/impl/SalesRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/repository/impl/SupplierRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/repository/impl/CustomerRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/repository/impl/ProductRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/repository/impl/UserRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/NameRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/AddressRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/ContactRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/Email.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/EmailRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/NameRepositoryDBImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryDBImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ContactRepositoryDBImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/NameRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ContactRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/EmailRepositoryDBImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/CustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/EmailRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/factory/EmailFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/repository/impl/ContactRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/repository/impl/EmailRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/repository/impl/AddressRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jade/repository/impl/NameRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/EmailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/domain/Name.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/AddressServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/ContactServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ContactRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ProductRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/SupplierServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SupplierRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/SalesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/NameRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SalesRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/AbstractTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/service/Impl/NameServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/AddressController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/AddressControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/EmailController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/NameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/SalesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/SupplierController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/ContactController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/ContactControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/CustomerControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/EmailControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/NameControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/ProductControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/SalesControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/SupplierControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/resources/application.properties.properties" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-22" />
-    <option name="y" value="-12" />
-    <option name="width" value="1926" />
-    <option name="height" value="1040" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,22 +243,29 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556718908932" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560359366518" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/invoicesystem_uml.png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cardstox-cards-vid_7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jade.controller.Impl" />
+      <recent name="com.jade.service.Impl" />
       <recent name="com.jade.repository.impl" />
       <recent name="com.jade.factory" />
     </key>
@@ -194,77 +292,77 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NameRepositoryImplTest">
-    <configuration name="AddressRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserControllerTest">
+    <configuration name="NameControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="invoicesystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jade.repository.impl.*" />
+          <option name="PATTERN" value="com.jade.controller.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jade.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.jade.repository.impl.AddressRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="com.jade.controller.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.jade.controller.Impl.NameControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="invoicesystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jade.repository.impl.*" />
+          <option name="PATTERN" value="com.jade.controller.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jade.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.jade.repository.impl.ContactRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="com.jade.controller.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.jade.controller.Impl.ProductControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SalesControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="invoicesystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jade.repository.impl.*" />
+          <option name="PATTERN" value="com.jade.controller.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jade.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.jade.repository.impl.EmailRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="com.jade.controller.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.jade.controller.Impl.SalesControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SupplierControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="invoicesystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jade.repository.impl.*" />
+          <option name="PATTERN" value="com.jade.controller.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jade.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.jade.repository.impl.NameRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="com.jade.controller.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.jade.controller.Impl.SupplierControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="invoicesystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jade.repository.impl.*" />
+          <option name="PATTERN" value="com.jade.controller.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jade.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.jade.repository.impl.UserRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="com.jade.controller.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.jade.controller.Impl.UserControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -272,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NameRepositoryImplTest" />
-        <item itemvalue="JUnit.AddressRepositoryImplTest" />
-        <item itemvalue="JUnit.ContactRepositoryImplTest" />
-        <item itemvalue="JUnit.EmailRepositoryImplTest" />
-        <item itemvalue="JUnit.UserRepositoryImplTest" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.SupplierControllerTest" />
+        <item itemvalue="JUnit.SalesControllerTest" />
+        <item itemvalue="JUnit.ProductControllerTest" />
+        <item itemvalue="JUnit.NameControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -307,49 +405,70 @@
       <workItem from="1556565516473" duration="9907000" />
       <workItem from="1556605713577" duration="6688000" />
       <workItem from="1556652019075" duration="8632000" />
-      <workItem from="1556698489670" duration="17251000" />
+      <workItem from="1556698489670" duration="17860000" />
+      <workItem from="1557935242108" duration="706000" />
+      <workItem from="1558184906005" duration="1194000" />
+      <workItem from="1558558912045" duration="731000" />
+      <workItem from="1558634891531" duration="1140000" />
+      <workItem from="1558720072873" duration="122000" />
+      <workItem from="1559988172592" duration="31282000" />
+      <workItem from="1560064554139" duration="44405000" />
+      <workItem from="1560175396532" duration="29647000" />
+      <workItem from="1560268319953" duration="24127000" />
+      <workItem from="1560339662688" duration="3328000" />
+      <workItem from="1560354709579" duration="1776000" />
+      <workItem from="1560359058930" duration="282000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmailRepositoryImplTest - 2019.05.01 at 15h 11m 29s.xml">
-      <configuration name="EmailRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="ContactControllerTest - 2019.06.12 at 14h 08m 49s.xml">
+      <configuration name="ContactControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactRepositoryImplTest - 2019.05.01 at 15h 15m 21s.xml">
-      <configuration name="ContactRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="CustomerControllerTest - 2019.06.12 at 14h 15m 48s.xml">
+      <configuration name="CustomerControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailRepositoryImplTest - 2019.05.01 at 15h 15m 49s.xml">
-      <configuration name="EmailRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="CustomerControllerTest - 2019.06.12 at 14h 16m 09s.xml">
+      <configuration name="CustomerControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactRepositoryImplTest - 2019.05.01 at 15h 15m 55s.xml">
-      <configuration name="ContactRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="EmailControllerTest - 2019.06.12 at 14h 18m 10s.xml">
+      <configuration name="EmailControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactRepositoryImplTest - 2019.05.01 at 15h 16m 08s.xml">
-      <configuration name="ContactRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="EmailControllerTest - 2019.06.12 at 14h 19m 20s.xml">
+      <configuration name="EmailControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressRepositoryImplTest - 2019.05.01 at 15h 24m 10s.xml">
-      <configuration name="AddressRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="NameControllerTest - 2019.06.12 at 14h 22m 43s.xml">
+      <configuration name="NameControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressRepositoryImplTest - 2019.05.01 at 15h 28m 51s.xml">
-      <configuration name="AddressRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="ProductControllerTest - 2019.06.12 at 14h 24m 38s.xml">
+      <configuration name="ProductControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressRepositoryImplTest - 2019.05.01 at 15h 30m 38s.xml">
-      <configuration name="AddressRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="SalesControllerTest - 2019.06.12 at 14h 26m 10s.xml">
+      <configuration name="SalesControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressRepositoryImplTest - 2019.05.01 at 15h 34m 35s.xml">
-      <configuration name="AddressRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="SupplierControllerTest - 2019.06.12 at 14h 33m 32s.xml">
+      <configuration name="SupplierControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NameRepositoryImplTest - 2019.05.01 at 15h 41m 46s.xml">
-      <configuration name="NameRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="UserControllerTest - 2019.06.12 at 14h 36m 06s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138479000" />
+    <option name="totallyTimeSpent" value="277828000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,19 +476,22 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="simpleUML" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16684724" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22751896" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.33044422" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,270 +501,1204 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/service/Impl/AddressServiceImpl.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/service/Impl/AddressServiceImplTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/service/Impl/AddressServiceImplTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/factory/AddressFactory.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/factory/AddressFactory.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Contact.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Contact.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Contact.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Contact.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/service/Impl/CustomerServiceImpl.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/service/Impl/CustomerServiceImpl.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/service/Impl/CustomerServiceImpl.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CustomerRepositoryImpl.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/service/Impl/NameServiceImpl.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/service/Impl/NameServiceImpl.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/service/Impl/NameServiceImpl.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/NameController.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/NameController.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/AddressControllerTest.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/AddressControllerTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/AddressControllerTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/AddressControllerTest.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>33</line>
+          <properties class="com.jade.repository.impl.AddressRepositoryImpl" method="getRepository">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>23</line>
+          <properties class="com.jade.domain.Address" method="getAddressId">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>48</line>
+          <properties class="com.jade.domain.Address.Builder" method="addressId">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>75</line>
+          <properties class="com.jade.domain.Address.Builder" method="copy">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>92</line>
+          <properties class="com.jade.domain.Address" method="toString">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>104</line>
+          <properties class="com.jade.domain.Address" method="equals">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java</url>
+          <line>114</line>
+          <properties class="com.jade.domain.Address" method="hashCode">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java</url>
+          <line>19</line>
+          <properties class="com.jade.factory.AddressFactoryTest" method="getAddressId">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>21</line>
+          <properties class="com.jade.repository.impl.AddressRepositoryImpl" method="findAddress">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>70</line>
+          <properties class="com.jade.repository.impl.AddressRepositoryImpl" method="read">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>63</line>
+          <properties class="com.jade.repository.impl.AddressRepositoryImpl" method="delete">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>52</line>
+          <properties class="com.jade.repository.impl.AddressRepositoryImpl" method="update">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java</url>
+          <line>40</line>
+          <properties class="com.jade.repository.impl.AddressRepositoryImpl" method="getAll">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/domain/Contact.java</url>
+          <line>17</line>
+          <properties class="com.jade.domain.Contact" method="getContactId">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/NameControllerTest.java</url>
+          <line>129</line>
+          <properties class="com.jade.controller.Impl.NameControllerTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/NameControllerTest.java</url>
+          <line>49</line>
+          <properties class="com.jade.controller.Impl.NameControllerTest" method="create">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/AddressController.java</url>
+          <line>19</line>
+          <properties class="com.jade.controller.Impl.AddressController" method="create">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/AddressController.java</url>
+          <line>25</line>
+          <properties class="com.jade.controller.Impl.AddressController" method="update">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/AddressControllerTest.java</url>
+          <line>26</line>
+          <properties class="com.jade.controller.Impl.AddressControllerTest" method="setup">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/CustomerFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="59" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="59" />
+        <state relative-caret-position="-1086">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#2787#2788#0" expanded="true" />
+            <element signature="e#2833#2834#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Supplier.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/service/Impl/CustomerServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/UserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/UserFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/service/Impl/SupplierServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="45" />
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/SupplierFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/CustomerRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" selection-start-line="13" selection-end-line="20" selection-end-column="62" />
+        <state relative-caret-position="119">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/SupplierFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/ContactFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/AddressFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/SalesRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/service/Impl/AddressServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="48" />
+        <state relative-caret-position="229">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/SupplierRepositoryImplTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestClassCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunBeforeTestClassCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="560" selection-start-line="560" selection-end-line="560" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar!/org/springframework/test/web/servlet/request/MockMvcRequestBuilders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar!/org/springframework/test/web/servlet/request/MockHttpServletRequestBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="109" column="94" lean-forward="true" selection-start-line="109" selection-start-column="94" selection-end-line="109" selection-end-column="94" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3394#3395#0" expanded="true" />
+            <element signature="e#3438#3439#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/CustomerRepositoryImplTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar!/org/springframework/test/web/servlet/DefaultMvcResult.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="115" column="8" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="53" />
+        <state relative-caret-position="176">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/invoicesystem.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invoicesystem.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="331.0" y="908.0">com.jade.factory.ProductFactory</node>
-            <node x="274.0" y="1004.0">com.jade.util.Miscellaneous</node>
-            <node x="964.0" y="450.0">com.jade.domain.Email</node>
-            <node x="531.0" y="1004.0">com.jade.factory.EmailFactory</node>
-            <node x="256.0" y="450.0">com.jade.domain.Address</node>
-            <node x="651.0" y="908.0">com.jade.factory.UserFactory</node>
-            <node x="252.0" y="0.0">com.jade.domain.Supplier</node>
-            <node x="500.0" y="0.0">com.jade.domain.Product</node>
-            <node x="0.0" y="812.0">com.jade.factory.CustomerFactory</node>
-            <node x="799.0" y="812.0">com.jade.factory.AddressFactory</node>
-            <node x="0.0" y="908.0">com.jade.factory.ContactFactory</node>
-            <node x="489.0" y="450.0">com.jade.domain.Contact</node>
-            <node x="0.0" y="1004.0">com.jade.factory.NameFactory</node>
-            <node x="0.0" y="0.0">com.jade.domain.Customer</node>
-            <node x="0.0" y="450.0">com.jade.domain.Sales</node>
-            <node x="747.0" y="0.0">com.jade.domain.User</node>
-            <node x="409.0" y="812.0">com.jade.factory.SupplierFactory</node>
-            <node x="737.0" y="450.0">com.jade.domain.Name</node>
-            <node x="762.0" y="1004.0">com.jade.factory.SalesFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-537.5" y="-69.0" />
-          <SelectedNodes>
-            <node>com.jade.factory.ProductFactory</node>
-            <node>com.jade.util.Miscellaneous</node>
-            <node>com.jade.domain.Email</node>
-            <node>com.jade.factory.EmailFactory</node>
-            <node>com.jade.domain.Address</node>
-            <node>com.jade.factory.UserFactory</node>
-            <node>com.jade.domain.Supplier</node>
-            <node>com.jade.domain.Product</node>
-            <node>com.jade.factory.CustomerFactory</node>
-            <node>com.jade.factory.AddressFactory</node>
-            <node>com.jade.factory.ContactFactory</node>
-            <node>com.jade.domain.Contact</node>
-            <node>com.jade.factory.NameFactory</node>
-            <node>com.jade.domain.Customer</node>
-            <node>com.jade.domain.Sales</node>
-            <node>com.jade.domain.User</node>
-            <node>com.jade.factory.SupplierFactory</node>
-            <node>com.jade.domain.Name</node>
-            <node>com.jade.factory.SalesFactory</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/service/CustomerService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Name.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="495">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/service/GenericService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/NameRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="17">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/ProductRepository.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.1.5.RELEASE/spring-boot-test-2.1.5.RELEASE.jar!/org/springframework/boot/test/web/client/TestRestTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/SalesRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CustomerRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="197">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/CustomerRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/NameRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="187">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/service/Impl/NameServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/SalesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/SupplierController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/NameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/EmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/ContactControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/ContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/UserControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/NameRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/SupplierRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/SupplierControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="272">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/NameRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/SalesControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/ContactRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/ProductControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="277">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/EmailRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/NameControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="459">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/application.properties.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/EmailControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/service/Impl/NameServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -653,409 +1709,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Name.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/UserRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/EmailRepositoryDBImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/factory/EmailFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/EmailRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ContactRepositoryDBImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/ProductRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="88" column="28" lean-forward="true" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/factory/AddressFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/domain/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/AddressRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/EmailRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/CustomerControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="29" selection-start-line="25" selection-start-column="4" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ContactRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/NameRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryDBImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/InvoiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/NameRepositoryDBImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/AddressRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/repository/impl/ContactRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" selection-start-line="46" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/AddressRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/NameRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SalesRepositoryDBImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jade/controller/Impl/AddressControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SalesRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/controller/Impl/AddressController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="24" selection-start-line="24" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/SupplierRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="323">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/CustomerRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/ProductRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jade/repository/impl/UserRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invoicesystem2.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">com.jade.factory.EmailFactory</node>
-            <node x="" y="">com.jade.repository.impl.SupplierRepositoryDBImpl</node>
-            <node x="" y="">com.jade.repository.impl.NameRepositoryDBImpl</node>
-            <node x="" y="">com.jade.domain.Supplier</node>
-            <node x="" y="">com.jade.factory.UserFactory</node>
-            <node x="" y="">com.jade.repository.impl.ProductRepositoryDBImpl</node>
-            <node x="" y="">com.jade.repository.impl.UserRepositoryImpl</node>
-            <node x="" y="">com.jade.factory.AddressFactory</node>
-            <node x="" y="">com.jade.factory.ContactFactory</node>
-            <node x="" y="">com.jade.repository.ProductRepository</node>
-            <node x="" y="">com.jade.domain.Customer</node>
-            <node x="" y="">com.jade.repository.CustomerRepository</node>
-            <node x="" y="">com.jade.repository.impl.EmailRepositoryDBImpl</node>
-            <node x="" y="">com.jade.repository.impl.ContactRepositoryDBImpl</node>
-            <node x="" y="">com.jade.repository.impl.AddressRepositoryDBImpl</node>
-            <node x="" y="">com.jade.repository.SupplierRepository</node>
-            <node x="" y="">com.jade.repository.impl.ContactRepositoryImpl</node>
-            <node x="" y="">com.jade.repository.UserRepository</node>
-            <node x="" y="">com.jade.repository.EmailRepository</node>
-            <node x="" y="">com.jade.repository.impl.SupplierRepositoryImpl</node>
-            <node x="" y="">com.jade.util.Miscellaneous</node>
-            <node x="" y="">com.jade.domain.Address</node>
-            <node x="" y="">com.jade.factory.ProductFactory</node>
-            <node x="" y="">com.jade.domain.Email</node>
-            <node x="" y="">com.jade.repository.GenericRepository</node>
-            <node x="" y="">com.jade.repository.NameRepository</node>
-            <node x="" y="">com.jade.domain.Product</node>
-            <node x="" y="">com.jade.repository.impl.SalesRepositoryImpl</node>
-            <node x="" y="">com.jade.factory.CustomerFactory</node>
-            <node x="" y="">com.jade.repository.impl.AddressRepositoryImpl</node>
-            <node x="" y="">com.jade.repository.impl.ProductRepositoryImpl</node>
-            <node x="" y="">com.jade.domain.Contact</node>
-            <node x="" y="">com.jade.repository.ContactRepository</node>
-            <node x="" y="">com.jade.factory.NameFactory</node>
-            <node x="" y="">com.jade.domain.Sales</node>
-            <node x="" y="">com.jade.domain.User</node>
-            <node x="" y="">com.jade.repository.impl.CustomerRepositoryDBImpl</node>
-            <node x="" y="">com.jade.repository.impl.NameRepositoryImpl</node>
-            <node x="" y="">com.jade.repository.SalesRepository</node>
-            <node x="" y="">com.jade.repository.impl.EmailRepositoryImpl</node>
-            <node x="" y="">com.jade.repository.impl.SalesRepositoryDBImpl</node>
-            <node x="" y="">com.jade.factory.SupplierFactory</node>
-            <node x="" y="">com.jade.repository.AddressRepository</node>
-            <node x="" y="">com.jade.domain.Name</node>
-            <node x="" y="">com.jade.repository.impl.UserRepositoryDBImpl</node>
-            <node x="" y="">com.jade.factory.SalesFactory</node>
-            <node x="" y="">com.jade.repository.impl.CustomerRepositoryImpl</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="1922.0" y="339.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

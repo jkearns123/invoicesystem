@@ -2,10 +2,9 @@ package com.jade.service;
 
 import com.jade.domain.Customer;
 
-public interface CustomerService {
+import java.util.Set;
 
-    Customer create(Customer customer);
-    Customer read(Customer customer);
-    Customer update(Customer customer);
-    Customer delete(Customer customer);
+public interface CustomerService extends GenericService<Customer,String>{
+
+    Set<Customer> getAll();
 }

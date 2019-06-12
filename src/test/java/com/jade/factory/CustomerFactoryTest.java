@@ -42,7 +42,8 @@ public class CustomerFactoryTest {
     @Test
     public void getCustomerTestAddress() {
 
-        Assert.assertEquals("37 Chelmsford",customerAddresss.getCity());
+        Assert.assertEquals("37 Chelmsford",customerAddresss.getStreet());
+
     }
 
     @Test

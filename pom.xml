@@ -8,9 +8,19 @@
   <artifactId>invoicesystem</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+  <!-- 1 To convert to springboot application the 1st thing to add is the parent below-->
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.5.RELEASE</version>
+  </parent>
+
   <name>invoicesystem</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+
+
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,12 +29,28 @@
   </properties>
 
   <dependencies>
+
+    <!--2 To convert to springboot application the 2nd thing to do, add dependency: spring-boot-starter-web-->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>2.1.5.RELEASE</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-devtools</artifactId>
+      <version>2.1.4.RELEASE</version>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <version>2.1.4.RELEASE</version>
       <scope>test</scope>
     </dependency>
+
   </dependencies>
 
   <build>

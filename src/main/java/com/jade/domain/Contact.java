@@ -1,15 +1,26 @@
 package com.jade.domain;
 
+import java.util.Objects;
+
 public class Contact {
-    private String cellContact, workContact, homeContact;
+    private String contactId, cellContact, workContact, homeContact;
 
     private Contact() {
     }
 
     private Contact(Builder builder){
+        this.contactId = builder.contactId;
         this.cellContact = builder.cellContact;
         this.workContact = builder.workContact;
         this.homeContact = builder.homeContact;
+    }
+
+    public String getContactId() {
+        return contactId;
+    }
+
+    public void setContactId(String contactId) {
+        this.contactId = contactId;
     }
 
     public String getCellContact() {
@@ -25,9 +36,12 @@ public class Contact {
     }
 
     public static class Builder{
-        private String cellContact, workContact, homeContact;
+        private String contactId, cellContact, workContact, homeContact;
 
-
+        public Builder contactId(String contactId){
+            this.contactId = contactId;
+            return this;
+        }
         public Builder cellContact(String cellContact) {
             this.cellContact = cellContact;
             return this;
@@ -43,15 +57,40 @@ public class Contact {
             return this;
         }
 
+        public Builder copy(Contact contact){
+            this.contactId = contact.contactId;
+            this.cellContact = contact.cellContact;
+            this.workContact = contact.workContact;
+            this.homeContact = contact.homeContact;
+
+            return this;
+        }
+
         public Contact build(){return new Contact(this);}
     }
 
     @Override
     public String toString() {
         return "Contact{" +
-                "cellContact='" + cellContact + '\'' +
+                "contactId='" + contactId + '\'' +
+                ", cellContact='" + cellContact + '\'' +
                 ", workContact='" + workContact + '\'' +
                 ", homeContact='" + homeContact + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Contact contact = (Contact) o;
+
+        return contactId.equals(contact.contactId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(contactId);
     }
 }

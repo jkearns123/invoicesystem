@@ -1,9 +1,10 @@
 package com.jade.domain;
 
 
+import java.util.Objects;
 import java.util.Set;
 
-public class Supplier implements Comparable<Supplier>{
+public class Supplier{
     private String supplierId, supplierName;
     private Set<Product> products;
     private Contact contact;
@@ -39,11 +40,6 @@ public class Supplier implements Comparable<Supplier>{
 
     public Email getEmail() {
         return email;
-    }
-
-    @Override
-    public int compareTo(Supplier o) {
-        return this.supplierId.compareTo(o.supplierId);
     }
 
     public static class Builder {
@@ -98,6 +94,7 @@ public class Supplier implements Comparable<Supplier>{
         return "Supplier{" +
                 "supplierId='" + supplierId + '\'' +
                 ", supplierName='" + supplierName + '\'' +
+                ", products=" + products +
                 ", contact=" + contact +
                 ", address=" + address +
                 ", email=" + email +
@@ -116,6 +113,6 @@ public class Supplier implements Comparable<Supplier>{
 
     @Override
     public int hashCode() {
-        return supplierId.hashCode();
+        return Objects.hash(supplierId);
     }
 }

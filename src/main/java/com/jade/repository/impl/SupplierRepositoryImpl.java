@@ -2,10 +2,12 @@ package com.jade.repository.impl;
 
 import com.jade.domain.Supplier;
 import com.jade.repository.SupplierRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory7")
 public class SupplierRepositoryImpl implements SupplierRepository {
 
     private static SupplierRepositoryImpl repository = null;
@@ -15,7 +17,7 @@ public class SupplierRepositoryImpl implements SupplierRepository {
         this.suppliers = new HashSet<>();
     }
 
-    public static SupplierRepository getRepository(){
+    public static SupplierRepositoryImpl getRepository(){
         if(repository == null) repository = new SupplierRepositoryImpl();
         return repository;
     }
@@ -41,14 +43,15 @@ public class SupplierRepositoryImpl implements SupplierRepository {
     }
 
     public Supplier read(final String supplierId){
-        return findSupplier(supplierId);
+        Supplier supplier = findSupplier(supplierId);
+        return supplier;
     }
 
     public Supplier update(Supplier supplier){
-        Supplier s = findSupplier(supplier.getSupplierId());
-        if(s != null){
-            Supplier ss = new Supplier.Builder().Copy(supplier).build();
-            return create(ss);
+        Supplier toDelete = findSupplier(supplier.getSupplierId());
+        if(toDelete != null){
+            this.suppliers.remove(toDelete);
+            return create(supplier);
         }
         return null;
     }

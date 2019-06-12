@@ -2,10 +2,12 @@ package com.jade.repository.impl;
 
 import com.jade.domain.User;
 import com.jade.repository.UserRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory8")
 public class UserRepositoryImpl implements UserRepository{
 
     //singleton
@@ -19,7 +21,7 @@ public class UserRepositoryImpl implements UserRepository{
     }
 
     //make sure to use UserRepositoryImpl
-    public static UserRepository getRepository(){
+    public static UserRepositoryImpl getRepository(){
         if(repository == null) repository = new UserRepositoryImpl();
         return repository;
     }
@@ -44,14 +46,15 @@ public class UserRepositoryImpl implements UserRepository{
     }
 
     public User read(final String userId){
-        return findUser(userId);
+        User user = findUser(userId);
+        return user;
     }
 
     public User update(User user){
-        User u = findUser(user.getUserId());
-        if(u != null){
-            User uu = new User.Builder().Copy(user).build();
-            return create(uu);
+        User toDelete = findUser(user.getUserId());
+        if(toDelete != null){
+            this.users.remove(toDelete);
+            return create(user);
         }
         return null;
     }

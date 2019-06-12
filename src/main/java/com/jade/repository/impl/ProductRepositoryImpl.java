@@ -2,10 +2,12 @@ package com.jade.repository.impl;
 
 import com.jade.domain.Product;
 import com.jade.repository.ProductRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory6")
 public class ProductRepositoryImpl implements ProductRepository {
 
     //changed from private static ProductRepository repository = null;
@@ -17,7 +19,7 @@ public class ProductRepositoryImpl implements ProductRepository {
     }
 
     //changed from public static ProductRepository getRepository(){
-    public static ProductRepository getRepository(){
+    public static ProductRepositoryImpl getRepository(){
         if(repository == null) repository = new ProductRepositoryImpl();
         return repository;
     }
@@ -43,14 +45,15 @@ public class ProductRepositoryImpl implements ProductRepository {
     }
 
     public Product read(final String productId){
-        return findProduct(productId);
+        Product product = findProduct(productId);
+        return product;
     }
 
     public Product update(Product product){
-        Product p = findProduct(product.getProductId());
-        if(p != null){
-            Product pp = new Product.Builder().Copy(product).build();
-            return create(pp);
+        Product toDelete = findProduct(product.getProductId());
+        if(toDelete != null){
+            this.prouducts.remove(toDelete);
+            return create(product);
         }
         return null;
     }

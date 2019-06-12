@@ -15,8 +15,16 @@ public class AddressFactoryTest {
 
     Address addresss = AddressFactory.getAddress(street,city,region,postalCode);
 
+    //added test to check AddressId creation
+    @Test
+    public void getAddressId(){
+        assertNotNull(addresss.getAddressId());
+        System.out.println(addresss.getAddressId());
+    }
+
     @Test
     public void getAddress() {
-        Assert.assertEquals("37 Chelmsford",addresss.getCity());
+
+        Assert.assertEquals("37 Chelmsford",addresss.getStreet());
     }
 }
