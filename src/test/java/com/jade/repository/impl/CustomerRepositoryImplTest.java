@@ -103,6 +103,7 @@ public class CustomerRepositoryImplTest {
         System.out.println("Previous Record: " + customer);
         System.out.println("Updated Record: " + updatedCustomer);
 
+        System.out.println("The array is: " + this.repository.getAll());
         Assert.assertNotNull(updatedCustomer);
         Assert.assertNotEquals(customer.getAddress(),updatedCustomer.getAddress());
         Assert.assertNotEquals(customer.getName(),updatedCustomer.getName());

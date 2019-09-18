@@ -56,6 +56,7 @@ public class EmailServiceImplTest {
         this.repository.update(updated);
 
         Assert.assertSame(newEmailAddress,updated.getEmailAddress());
+        System.out.println("Array includes: " + this.repository.getAll());
     }
 
     @Test

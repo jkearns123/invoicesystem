@@ -68,6 +68,8 @@ public class ProductRepositoryImplTest {
         Assert.assertNotNull(updatedProducts);
         Assert.assertNotEquals(product.getPrice(),updatedProducts.getPrice());
         Assert.assertNotEquals(product.getProductName(),updatedProducts.getProductName());
+
+        System.out.println("In Array; " + repository.getAll());
     }
 
     @Test
