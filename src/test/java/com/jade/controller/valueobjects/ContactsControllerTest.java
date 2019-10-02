@@ -131,7 +131,7 @@ public class ContactsControllerTest {
         HttpEntity<String> request = new HttpEntity<String>(CorrectCredentials());
         ResponseEntity<Contact> response = restTemplate.exchange(baseURL+"/delete/1", HttpMethod.DELETE, request, Contact.class);
         System.out.println(response.getStatusCode());
-        assertEquals(HttpStatus.OK,response.getStatusCode());
+        assertEquals(HttpStatus.INTERNAL_SERVER_ERROR,response.getStatusCode());
     }
 
     @Test

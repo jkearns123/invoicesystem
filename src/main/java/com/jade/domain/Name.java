@@ -1,9 +1,23 @@
 package com.jade.domain;
 
-import java.util.Objects;
+import org.hibernate.annotations.GenericGenerator;
 
+import javax.persistence.*;
+import java.util.Objects;
+import org.hibernate.annotations.Parameter;
+
+@Entity(name = "name")
 public class Name {
-    private String nameId, firstName, lastName;
+
+    @Id
+    @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name="system-uuid", strategy = "uuid")
+    @Column(name="name_id")
+    private String nameId;
+    private String firstName;
+    private String lastName;
+
+
 
     private Name() {
     }

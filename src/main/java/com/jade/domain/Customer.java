@@ -1,13 +1,36 @@
 package com.jade.domain;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.util.List;
 
+@Entity(name = "customer")
 public class Customer{
+
+    @Id
+    @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name="system-uuid", strategy = "uuid")
+    @Column(name="customer_id")
     private String customerId;
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = false)
     private List<Product>products;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "name", referencedColumnName = "name_id")
     private Name name;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "address", referencedColumnName = "address_id")
     private Address address;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "contact", referencedColumnName = "contact_id")
     private Contact contact;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "email", referencedColumnName = "email_id")
     private Email email;
 
     private Customer() {
@@ -19,6 +42,7 @@ public class Customer{
         this.address = builder.address;
         this.contact = builder.contact;
         this.email = builder.email;
+        this.products = builder.products;
 
     }
 
@@ -41,6 +65,8 @@ public class Customer{
     public Email getEmail() {
         return email;
     }
+
+    public List<Product> getProducts(){return products;}
 
     public static class Builder{
         private String customerId;
@@ -71,6 +97,11 @@ public class Customer{
             return this;
         }
 
+        public Builder products(Product product){
+            this.products = (List<Product>) product;
+            return this;
+        }
+
         public Builder customerId(String customerId) {
             this.customerId = customerId;
             return this;
@@ -84,6 +115,7 @@ public class Customer{
             this.address = customer.address;
             this.contact = customer.contact;
             this.email = customer.email;
+            this.products = customer.products;
 
             return this;
         }

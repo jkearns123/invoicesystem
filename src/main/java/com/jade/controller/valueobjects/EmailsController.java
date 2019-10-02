@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -14,10 +15,9 @@ import java.util.Set;
 public class EmailsController {
 
     @Autowired
-    @Qualifier("EmailServiceImpl")
     private EmailService service;
 
-    @PostMapping(value = "/create",produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/create",consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Email create(@RequestBody Email email){
         return service.create(email);
@@ -45,7 +45,7 @@ public class EmailsController {
 
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Set<Email> getAll() {
+    public List<Email> getAll() {
         return service.getAll();
     }
 }

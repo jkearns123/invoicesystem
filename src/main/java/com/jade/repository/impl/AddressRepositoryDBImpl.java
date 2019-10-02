@@ -1,3 +1,4 @@
+/*
 package com.jade.repository.impl;
 
 import com.jade.domain.Address;
@@ -31,3 +32,4 @@ public class AddressRepositoryDBImpl implements AddressRepository {
         return null;
     }
 }
+*/

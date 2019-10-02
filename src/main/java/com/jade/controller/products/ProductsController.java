@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.http.MediaType;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -16,10 +17,9 @@ import java.util.Set;
 public class ProductsController {
 
     @Autowired
-    @Qualifier("ProductServiceImpl")
     private ProductService service;
 
-    @PostMapping(value = "/create",produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/create",consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Product create(@RequestBody Product product) {
 
@@ -28,7 +28,7 @@ public class ProductsController {
 
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Set<Product> getAll() {
+    public List<Product> getAll() {
         return service.getAll();
     }
 

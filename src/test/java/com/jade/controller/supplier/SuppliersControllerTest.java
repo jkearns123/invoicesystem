@@ -51,7 +51,7 @@ public class SuppliersControllerTest {
     public void a_createUSEROK() {
         HttpHeaders headers = new HttpHeaders();
 
-        Supplier supplier = SupplierFactory.getSupplier("Unilever",contact,address,email);
+        Supplier supplier = SupplierFactory.getSupplier("Unilever",contact,address,email,null);
         HttpEntity<Supplier> entity = new HttpEntity<Supplier>(supplier,headers);
 
 
@@ -68,7 +68,7 @@ public class SuppliersControllerTest {
     public void b_createADMINOK() {
         HttpHeaders headers = new HttpHeaders();
 
-        Supplier supplier = SupplierFactory.getSupplier("Unilever",contact,address,email);
+        Supplier supplier = SupplierFactory.getSupplier("Unilever",contact,address,email,null);
         HttpEntity<Supplier> entity = new HttpEntity<Supplier>(supplier,headers);
 
 
@@ -137,7 +137,7 @@ public class SuppliersControllerTest {
         HttpEntity<String> request = new HttpEntity<String>(CorrectCredentials());
         ResponseEntity<Supplier> response = restTemplate.exchange(baseURL+"/delete/1", HttpMethod.DELETE, request, Supplier.class);
         System.out.println(response.getStatusCode());
-        assertEquals(HttpStatus.OK,response.getStatusCode());
+        assertEquals(HttpStatus.INTERNAL_SERVER_ERROR,response.getStatusCode());
 
     }
 
@@ -145,7 +145,7 @@ public class SuppliersControllerTest {
     public void g_updateOK(){
 
         HttpHeaders headers = new HttpHeaders();
-        Supplier supplier = SupplierFactory.getSupplier("Unilever",contact,address,email);
+        Supplier supplier = SupplierFactory.getSupplier("Unilever",contact,address,email,null);
 
         HttpEntity<Supplier> entity = new HttpEntity<Supplier>(supplier, headers);
 

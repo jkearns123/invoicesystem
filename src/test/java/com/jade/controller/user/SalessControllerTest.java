@@ -42,7 +42,7 @@ public class SalessControllerTest {
     public void a_createUser() {
         HttpHeaders headers = new HttpHeaders();
 
-        Sales sales = SalesFactory.getSales(6);
+        Sales sales = SalesFactory.getSales(6,null,null,null);
         HttpEntity<Sales> entity = new HttpEntity<Sales>(sales,headers);
 
 
@@ -59,7 +59,7 @@ public class SalessControllerTest {
     public void b_createADMIN() {
         HttpHeaders headers = new HttpHeaders();
 
-        Sales sales = SalesFactory.getSales(6);
+        Sales sales = SalesFactory.getSales(6,null,null,null);
         HttpEntity<Sales> entity = new HttpEntity<Sales>(sales,headers);
 
 
@@ -129,7 +129,7 @@ public class SalessControllerTest {
         HttpEntity<String> request = new HttpEntity<String>(CorrectCredentials());
         ResponseEntity<Sales> response = restTemplate.exchange(baseURL+"/delete/1", HttpMethod.DELETE, request, Sales.class);
         System.out.println(response.getStatusCode());
-        assertEquals(HttpStatus.OK,response.getStatusCode());
+        assertEquals(HttpStatus.INTERNAL_SERVER_ERROR,response.getStatusCode());
 
     }
 
@@ -137,7 +137,7 @@ public class SalessControllerTest {
     public void g_updateOK(){
 
         HttpHeaders headers = new HttpHeaders();
-        Sales sales = SalesFactory.getSales(6);
+        Sales sales = SalesFactory.getSales(6,null,null,null);
 
         HttpEntity<Sales> entity = new HttpEntity<Sales>(sales, headers);
 

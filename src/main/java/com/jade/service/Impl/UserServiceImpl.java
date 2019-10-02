@@ -7,38 +7,42 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
-@Service("UserServiceImpl")
+@Service
 public class UserServiceImpl implements UserService {
 
+    private static UserService service = null;
+
     @Autowired
-    @Qualifier("InMemory8")
     private UserRepository repository;
 
 
     @Override
-    public Set<User> getAll() {
-        return repository.getAll();
+    public List<User> getAll() {
+        return repository.findAll();
     }
 
     @Override
     public User create(User user) {
-        return repository.create(user);
+        return this.repository.save(user);
     }
 
     @Override
     public User update(User user) {
-        return repository.update(user);
+        return this.repository.save(user);
     }
 
     @Override
     public User read(String s) {
-        return repository.read(s);
+        Optional<User> opt = this.repository.findById(s);
+        return opt.orElse(null);
     }
 
     @Override
     public void delete(String s) {
-        repository.delete(s);
+        this.repository.deleteById(s);
     }
 }

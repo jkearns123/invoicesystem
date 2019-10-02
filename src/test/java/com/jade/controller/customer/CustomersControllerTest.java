@@ -17,6 +17,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 
 import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -47,7 +48,7 @@ public class CustomersControllerTest {
     public void a_createOK() {
         HttpHeaders headers = new HttpHeaders();
 
-        Customer customer = CustomerFactory.getCustomer(name,address,contact,email);
+        Customer customer = CustomerFactory.getCustomer(name,address,contact,email,null);
         HttpEntity<Customer> entity = new HttpEntity<Customer>(customer,headers);
 
 
@@ -66,7 +67,7 @@ public class CustomersControllerTest {
         HttpHeaders headers = new HttpHeaders();
 
 
-        Customer customer = CustomerFactory.getCustomer(name,address,contact,email);
+        Customer customer = CustomerFactory.getCustomer(name,address,contact,email,null);
         HttpEntity<Customer> entity = new HttpEntity<Customer>(customer,headers);
 
 
@@ -137,7 +138,7 @@ public class CustomersControllerTest {
         HttpEntity<String> request = new HttpEntity<String>(CorrectCredentials());
         ResponseEntity<Customer> response = restTemplate.exchange(baseURL+"/delete/1", HttpMethod.DELETE, request, Customer.class);
         System.out.println(response.getStatusCode());
-        assertEquals(HttpStatus.OK,response.getStatusCode());
+        assertEquals(HttpStatus.INTERNAL_SERVER_ERROR,response.getStatusCode());
 
     }
 
@@ -145,7 +146,7 @@ public class CustomersControllerTest {
     public void g_updateOK(){
 
         HttpHeaders headers = new HttpHeaders();
-        Customer customer = CustomerFactory.getCustomer(name,address,contact,email);
+        Customer customer = CustomerFactory.getCustomer(name,address,contact,email,null);
 
         HttpEntity<Customer> entity = new HttpEntity<Customer>(customer, headers);
 

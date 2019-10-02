@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
 @RequestMapping("/email")
 public class EmailController {
     @Autowired
-    @Qualifier("EmailServiceImpl")
     private EmailService service;
 
     @PostMapping("/create")
@@ -44,7 +44,7 @@ public class EmailController {
 
     @GetMapping("/read/all")
     @ResponseBody
-    public Set<Email> getAll() {
+    public List<Email> getAll() {
         return service.getAll();
     }
 

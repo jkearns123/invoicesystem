@@ -1,9 +1,19 @@
 package com.jade.domain;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.util.Objects;
 
+@Entity(name = "product")
 public class Product{
-    private String productId, productName;
+
+    @Id
+    @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name="system-uuid", strategy = "uuid")
+    @Column(name="product_id")
+    private String productId;
+    private String productName;
     private int productQuantity;
     private double price;
 

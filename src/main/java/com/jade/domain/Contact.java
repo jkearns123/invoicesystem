@@ -1,9 +1,26 @@
 package com.jade.domain;
 
-import java.util.Objects;
+import org.hibernate.annotations.GenericGenerator;
 
+import javax.persistence.*;
+import java.util.Objects;
+import org.hibernate.annotations.Parameter;
+
+
+@Entity(name = "contact")
 public class Contact {
-    private String contactId, cellContact, workContact, homeContact;
+
+
+    @Id
+    @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name="system-uuid", strategy = "uuid")
+    @Column(name="contact_id")
+    private String contactId;
+    private String cellContact;
+    private String workContact;
+    private String homeContact;
+
+
 
     private Contact() {
     }

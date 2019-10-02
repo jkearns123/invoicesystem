@@ -7,38 +7,42 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
-@Service("SupplierServiceImpl")
+@Service
 public class SupplierServiceImpl implements SupplierService {
 
+    private static SupplierService service = null;
+
     @Autowired
-    @Qualifier("InMemory7")
     private SupplierRepository repository;
 
 
     @Override
-    public Set<Supplier> getAll() {
-        return repository.getAll();
+    public List<Supplier> getAll() {
+        return this.repository.findAll();
     }
 
     @Override
     public Supplier create(Supplier supplier) {
-        return repository.create(supplier);
+        return this.repository.save(supplier);
     }
 
     @Override
     public Supplier update(Supplier supplier) {
-        return repository.update(supplier);
+        return this.repository.save(supplier);
     }
 
     @Override
     public Supplier read(String s) {
-        return repository.read(s);
+        Optional<Supplier> opt = this.repository.findById(s);
+        return opt.orElse(null);
     }
 
     @Override
     public void delete(String s) {
-        repository.delete(s);
+        this.repository.deleteById(s);
     }
 }

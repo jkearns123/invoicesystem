@@ -1,4 +1,4 @@
-package com.jade.controller.Impl;
+/*package com.jade.controller.Impl;
 
 import com.jade.domain.Customer;
 import com.jade.service.CustomerService;
@@ -44,4 +44,4 @@ public class CustomerController {
     public Set<Customer> getAll() {
         return service.getAll();
     }
-}
+}*/

@@ -7,15 +7,14 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
 @RequestMapping("/invoicesystem/sales")
-
 public class SalessController {
 
     @Autowired
-    @Qualifier("SalesServiceImpl")
     private SalesService service;
 
     @PostMapping(value = "/create",produces = MediaType.APPLICATION_JSON_VALUE)
@@ -44,7 +43,7 @@ public class SalessController {
 
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Set<Sales> getAll() {
+    public List<Sales> getAll() {
         return service.getAll();
     }
 }

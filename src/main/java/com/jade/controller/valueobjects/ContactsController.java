@@ -7,16 +7,17 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
 @RequestMapping("/invoicesystem/contact")
 public class ContactsController {
+
     @Autowired
-    @Qualifier("ContactServiceImpl")
     private ContactService service;
 
-    @PostMapping(value = "/create",produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/create",consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Contact create(@RequestBody Contact contact) {
         return service.create(contact);
@@ -42,7 +43,7 @@ public class ContactsController {
 
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Set<Contact> getAll() {
+    public List<Contact> getAll() {
         return service.getAll();
     }
 }

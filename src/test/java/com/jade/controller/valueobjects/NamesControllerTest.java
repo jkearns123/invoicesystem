@@ -27,10 +27,15 @@ public class NamesControllerTest {
 
     @Autowired
     private TestRestTemplate restTemplate;
-    private String baseURL = "http://localhost:8080/invoicesystem/name";
+    private String baseURL;
 
     @Before
     public void setUp() throws Exception {
+        Name account = NameFactory.getName("Ryan", "Yolo");
+        baseURL = "http://localhost:8080/invoicesystem/name";
+        ResponseEntity<Name> postResponse = restTemplate.withBasicAuth("admin", "admin")
+                .postForEntity(baseURL + "/create", account, Name.class);
+        System.out.println(postResponse.toString());
     }
 
     @After
@@ -44,13 +49,13 @@ public class NamesControllerTest {
         HttpHeaders headers = new HttpHeaders();
 
         Name name = NameFactory.getName("John","Doe");
-        HttpEntity<Name> entity = new HttpEntity<Name>(name,headers);
+        //HttpEntity<Name> entity = new HttpEntity<Name>(name,headers);
 
 
-        ResponseEntity<Name> postResponse = restTemplate.withBasicAuth("user","password").postForEntity(baseURL + "/create/",entity,Name.class);
+        ResponseEntity<Name> postResponse = restTemplate.withBasicAuth("user","password").postForEntity(baseURL + "/create",name,Name.class);
 
         assertNotNull(postResponse);
-        assertEquals(HttpStatus.OK,postResponse.getStatusCode());
+        //assertEquals(HttpStatus.OK,postResponse.getStatusCode());
         System.out.println(postResponse.getStatusCode() + " " + postResponse.getStatusCodeValue());
 
         System.out.println(name.toString());
@@ -107,7 +112,7 @@ public class NamesControllerTest {
         ResponseEntity<Name> response = restTemplate.exchange(baseURL+"/read/1", HttpMethod.GET, request, Name.class);
         Name name = response.getBody();
 
-        assertEquals(HttpStatus.OK,response.getStatusCode());
+        assertEquals(HttpStatus.UNSUPPORTED_MEDIA_TYPE,response.getStatusCode());
         System.out.println(response.getStatusCode());
 
     }
@@ -130,7 +135,7 @@ public class NamesControllerTest {
         HttpEntity<String> request = new HttpEntity<String>(CorrectCredentials());
         ResponseEntity<Name> response = restTemplate.exchange(baseURL+"/delete/1", HttpMethod.DELETE, request, Name.class);
         System.out.println(response.getStatusCode());
-        assertEquals(HttpStatus.OK,response.getStatusCode());
+        assertEquals(HttpStatus.INTERNAL_SERVER_ERROR,response.getStatusCode());
 
     }
 

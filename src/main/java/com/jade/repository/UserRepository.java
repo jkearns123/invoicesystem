@@ -1,15 +1,10 @@
 package com.jade.repository;
 
 import com.jade.domain.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Set;
 
-public interface UserRepository extends GenericRepository<User,String>{
-
-/*    User create(User user);
-    User update(User user);
-    void delete(User user);
-    User read(String userId);*/
-
-    Set<User>getAll();
+public interface UserRepository extends JpaRepository<User,String> {
+//    Set<User>getAll();
 }

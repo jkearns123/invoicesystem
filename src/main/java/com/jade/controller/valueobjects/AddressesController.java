@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -14,10 +15,9 @@ import java.util.Set;
 public class AddressesController {
 
     @Autowired
-    @Qualifier("AddressServiceImpl")
     private AddressService service;
 
-    @PostMapping(value = "/create",produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/create",consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Address create(@RequestBody Address address) {
         return service.create(address);
@@ -43,7 +43,7 @@ public class AddressesController {
 
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Set<Address> getAll() {
+    public List<Address> getAll() {
         return service.getAll();
     }
 }

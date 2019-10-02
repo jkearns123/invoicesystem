@@ -1,15 +1,11 @@
 package com.jade.repository;
 
 import com.jade.domain.Supplier;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Set;
 
-public interface SupplierRepository extends GenericRepository<Supplier,String>{
+public interface SupplierRepository extends JpaRepository<Supplier,String> {
 
-/*    Supplier create(Supplier supplier);
-    Supplier update(Supplier supplier);
-    void delete(Supplier supplier);
-    Supplier read(String supplierId);*/
-
-    Set<Supplier> getAll();
+//    Set<Supplier> getAll();
 }

@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -14,11 +15,9 @@ import java.util.Set;
 public class NamesController {
 
     @Autowired
-    @Qualifier("NameServiceImpl")
     private NameService service;
 
-    @PostMapping(value = "/create",produces = MediaType.APPLICATION_JSON_VALUE)
-    @ResponseBody
+    @PostMapping(value = "/create",consumes = MediaType.APPLICATION_JSON_VALUE) //changed to consume
     public Name create(@RequestBody Name name){
         return service.create(name);
     }
@@ -37,7 +36,7 @@ public class NamesController {
 
     }
 
-    @GetMapping(value = "/read/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/read/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Name read(@PathVariable String id) {
         return service.read(id);
@@ -45,7 +44,7 @@ public class NamesController {
 
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Set<Name> getAll() {
+    public List<Name> getAll() {
         return service.getAll();
     }
 }

@@ -7,38 +7,42 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
-@Service("SalesServiceImpl")
+@Service
 public class SalesServiceImpl implements SalesService {
 
+    private static SalesService service = null;
+
     @Autowired
-    @Qualifier("InMemory9")
     private SalesRepository repository;
 
 
     @Override
-    public Set<Sales> getAll() {
-        return repository.getAll();
+    public List<Sales> getAll() {
+        return this.repository.findAll();
     }
 
     @Override
     public Sales create(Sales sales) {
-        return repository.create(sales);
+        return this.repository.save(sales);
     }
 
     @Override
     public Sales update(Sales sales) {
-        return repository.update(sales);
+        return this.repository.save(sales);
     }
 
     @Override
     public Sales read(String s) {
-        return repository.read(s);
+        Optional<Sales> opt = this.repository.findById(s);
+        return opt.orElse(null);
     }
 
     @Override
     public void delete(String s) {
-        repository.delete(s);
+        this.repository.deleteById(s);
     }
 }

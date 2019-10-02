@@ -7,38 +7,40 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
-@Service("EmailServiceImpl")
+@Service
 public class EmailServiceImpl implements EmailService {
 
     @Autowired
-    @Qualifier("InMemory3")
     private EmailRepository repository;
 
 
     @Override
-    public Set<Email> getAll() {
-        return repository.getAll();
+    public List<Email> getAll() {
+        return repository.findAll();
     }
 
     @Override
     public Email create(Email email) {
-        return repository.create(email);
+        return this.repository.save(email);
     }
 
     @Override
     public Email update(Email email) {
-        return repository.update(email);
+        return this.repository.save(email);
     }
 
     @Override
     public Email read(String s) {
-        return repository.read(s);
+        Optional<Email> opt = this.repository.findById(s);
+        return opt.orElse(null);
     }
 
     @Override
     public void delete(String s) {
-        repository.delete(s);
+        this.repository.deleteById(s);
     }
 }

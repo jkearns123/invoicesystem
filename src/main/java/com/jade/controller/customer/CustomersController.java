@@ -11,6 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -18,8 +19,7 @@ import java.util.Set;
 public class CustomersController {
 
     @Autowired
-    @Qualifier("CustomerServiceImpl")
-    private CustomerServiceImpl service;
+    private CustomerService service;
 
     @PostMapping(value = "/create",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
@@ -29,7 +29,7 @@ public class CustomersController {
 
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Set<Customer> getAll() {
+    public List<Customer> getAll() {
         return service.getAll();
     }
 

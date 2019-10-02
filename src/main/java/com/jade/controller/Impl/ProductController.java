@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
 @RequestMapping("/product")
 public class ProductController {
     @Autowired
-    @Qualifier("ProductServiceImpl")
     private ProductService service;
 
     @PostMapping("/create")
@@ -41,7 +41,7 @@ public class ProductController {
 
     @GetMapping("/read/all")
     @ResponseBody
-    public Set<Product> getAll() {
+    public List<Product> getAll() {
         return service.getAll();
     }
 }

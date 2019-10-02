@@ -1,15 +1,32 @@
 package com.jade.domain;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
+@Entity(name = "sales")
 public class Sales{
+
+
+    @Id
+    @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name="system-uuid", strategy = "uuid")
+    @Column(name="sales_id")
     private String salesId;
     private double salesTotal;
-    private Set<Customer>customers;
+
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = false)
+    private List<Customer>customers;
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = false)
     private List<Product> products;
-    private Set<User>users;
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = false)
+    private List<User>users;
 
     private Sales() {
     }
@@ -17,6 +34,10 @@ public class Sales{
     private Sales(Builder builder){
         this.salesId = builder.salesId;
         this.salesTotal = builder.salesTotal;
+        this.products = builder.products;
+        this.customers = builder.customers;
+        this.users = builder.users;
+
     }
 
     public String getSalesId() {
@@ -27,12 +48,18 @@ public class Sales{
         return salesTotal;
     }
 
+    public List<Product> getProducts(){return products;}
+
+    public List<Customer> getCustomers(){return customers;}
+
+    public List<User> getUsers(){return users;}
+
     public static class Builder{
         private String salesId;
         private double salesTotal;
-        private Set<Customer>customers;
+        private List<Customer>customers;
         private List<Product> products;
-        private Set<User>users;
+        private List<User>users;
 
         public Builder salesId(String salesId) {
             this.salesId = salesId;
@@ -44,9 +71,27 @@ public class Sales{
             return this;
         }
 
+        public Builder products(Product product){
+            this.products = (List<Product>) product;
+            return this;
+        }
+
+        public Builder customers(Customer customer){
+            this.customers = (List<Customer>) customer;
+            return this;
+        }
+
+        public Builder users(User user){
+            this.users = (List<User>) user;
+            return this;
+        }
+
         public Builder Copy(Sales sales){
             this.salesId = sales.salesId;
             this.salesTotal = sales.salesTotal;
+            this.products = sales.products;
+            this.customers = sales.customers;
+            this.users = sales.users;
 
             return this;
         }

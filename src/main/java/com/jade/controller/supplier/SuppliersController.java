@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -14,7 +15,6 @@ import java.util.Set;
 public class SuppliersController {
 
     @Autowired
-    @Qualifier("SupplierServiceImpl")
     private SupplierService service;
 
     @PostMapping(value = "/create",produces = MediaType.APPLICATION_JSON_VALUE)
@@ -43,7 +43,7 @@ public class SuppliersController {
 
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Set<Supplier> getAll() {
+    public List<Supplier> getAll() {
         return service.getAll();
     }
 }

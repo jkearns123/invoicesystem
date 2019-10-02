@@ -1,10 +1,25 @@
 package com.jade.domain;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.util.Objects;
 
+@Entity
+@Table(name = "address")
 public class Address {
     //added addressId
-    String addressId, street, city, region, postalCode;
+
+    @Id
+    @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name="system-uuid", strategy = "uuid")
+    @Column(name="address_id")
+    String addressId;
+    String street;
+    String city;
+    String region;
+    String postalCode;
+
 
     private Address() {
     }

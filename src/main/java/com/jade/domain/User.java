@@ -1,11 +1,32 @@
 package com.jade.domain;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.util.Objects;
 
+@Entity(name = "user")
 public class User{
+
+    @Id
+    @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name="system-uuid", strategy = "uuid")
+    @Column(name="user_id")
     private String userId;
+
+    @OneToOne(cascade = CascadeType.ALL)
+//    @PrimaryKeyJoinColumn(name="user_id", referencedColumnName="name_Id")
+    @JoinColumn(name = "name", referencedColumnName = "name_id")
     private Name name;
+
+    @OneToOne(cascade = CascadeType.ALL)
+//    @PrimaryKeyJoinColumn(name="user_id", referencedColumnName="contact_Id")
+    @JoinColumn(name = "contact", referencedColumnName = "contact_id")
     private Contact contact;
+
+    @OneToOne(cascade = CascadeType.ALL)
+//    @PrimaryKeyJoinColumn(name="user_id", referencedColumnName="email_Id")
+    @JoinColumn(name = "email", referencedColumnName = "email_id")
     private Email email;
 
     private User() {

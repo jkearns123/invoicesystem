@@ -1,3 +1,4 @@
+/*
 package com.jade.repository.impl;
 
 import com.jade.domain.Contact;
@@ -31,3 +32,4 @@ public class ContactRepositoryDBImpl implements ContactRepository {
         return null;
     }
 }
+*/
