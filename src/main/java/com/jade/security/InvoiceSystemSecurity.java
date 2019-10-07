@@ -39,7 +39,6 @@ public class InvoiceSystemSecurity extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers(HttpMethod.POST,"/invoicesystem/product/**").hasRole(ADMIN_ROLE)
-                .antMatchers(HttpMethod.GET,"/invoicesystem/product/**").hasRole(ADMIN_ROLE)
                 .and()
         .csrf().disable()
         .formLogin().disable()

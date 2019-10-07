@@ -37,6 +37,7 @@ public class EmailsController {
 
     }
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @GetMapping(value = "/read/{emailId}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Email read(@PathVariable String emailId) {

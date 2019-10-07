@@ -25,7 +25,7 @@ public class ProductsController {
 
         return service.create(product);
     }
-
+    @CrossOrigin(origins = "http://localhost:8383")
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public List<Product> getAll() {
@@ -44,6 +44,7 @@ public class ProductsController {
         service.delete(id);
     }
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @GetMapping(value = "/read/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public Product read(@PathVariable String id) {
         return service.read(id);

@@ -17,11 +17,13 @@ public class NamesController {
     @Autowired
     private NameService service;
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @PostMapping(value = "/create",consumes = MediaType.APPLICATION_JSON_VALUE) //changed to consume
     public Name create(@RequestBody Name name){
         return service.create(name);
     }
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @PutMapping(value = "/update", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Name update(@RequestBody Name name){
@@ -36,12 +38,15 @@ public class NamesController {
 
     }
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @GetMapping(value = "/read/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Name read(@PathVariable String id) {
         return service.read(id);
     }
 
+
+    @CrossOrigin(origins = "http://localhost:8383")
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public List<Name> getAll() {

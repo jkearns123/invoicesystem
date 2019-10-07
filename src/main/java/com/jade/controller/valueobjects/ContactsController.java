@@ -35,6 +35,7 @@ public class ContactsController {
         service.delete(id);
     }
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @GetMapping(value = "/read/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Contact read(@PathVariable String id) {

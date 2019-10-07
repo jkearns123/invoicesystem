@@ -21,12 +21,15 @@ public class CustomersController {
     @Autowired
     private CustomerService service;
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @PostMapping(value = "/create",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Customer create(@RequestBody Customer customer) {
         return service.create(customer);
     }
 
+
+    @CrossOrigin(origins = "http://localhost:8383")
     @GetMapping(value = "/read/all",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public List<Customer> getAll() {
@@ -45,6 +48,7 @@ public class CustomersController {
         service.delete(id);
     }
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @GetMapping(value = "/read/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Customer read(@PathVariable String id) {
