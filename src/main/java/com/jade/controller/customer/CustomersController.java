@@ -42,6 +42,7 @@ public class CustomersController {
         return service.update(customer);
     }
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @DeleteMapping(value = "/delete/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public void delete(@PathVariable String id) {

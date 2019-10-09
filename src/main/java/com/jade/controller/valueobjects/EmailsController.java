@@ -23,6 +23,7 @@ public class EmailsController {
         return service.create(email);
     }
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @PutMapping(value = "/update", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Email update(@RequestBody Email email) {

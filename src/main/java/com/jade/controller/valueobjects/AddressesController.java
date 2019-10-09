@@ -23,6 +23,7 @@ public class AddressesController {
         return service.create(address);
     }
 
+    @CrossOrigin(origins = "http://localhost:8383")
     @PutMapping(value = "/update", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Address update(@RequestBody Address address) {
